@@ -10,7 +10,7 @@ header {
 header h1 {
   color: #f8f8f2;
   font-size: 20pt;
-  margin: 16px; }
+  margin: 16px 16px 0 16px; }
 
 header h1 a {
   color: inherit;
@@ -18,7 +18,7 @@ header h1 a {
 
 header p {
   color: #f8f8f2;
-  margin: 16px; }
+  margin: 0 16px 16px 16px; }
 
 header p a {
   color: inherit;
