@@ -9,14 +9,16 @@ header {
 
 header h1 {
   color: #f8f8f2;
-  font-size: 20pt; }
+  font-size: 20pt;
+  margin: 16px; }
 
 header h1 a {
   color: inherit;
   text-decoration: none; }
 
 header p {
-  color: #f8f8f2; }
+  color: #f8f8f2;
+  margin: 16px; }
 
 header p a {
   color: inherit;
@@ -25,3 +27,6 @@ header p a {
 @media print {
   header {
     display: none; } }
+@media screen and (max-width: 22cm) {
+  header {
+    margin-bottom: 0; } }
