@@ -11,7 +11,7 @@ body {
 
 ::selection,
 ::-moz-selection {
-  background: #44475A; }
+  background: #44475a; }
 
 .head {
   margin: 1.5cm 1.5cm 0cm 1.5cm; }
@@ -20,16 +20,13 @@ body {
   display: inline-block;
   background-color: #282a36;
   margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm #303030;
+  box-shadow: 0 0 0.5cm #44475a;
   width: 21cm;
   min-width: 21cm;
   height: 29.7cm; }
 
 h1, h2, h3, h4, h5, p {
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0; }
+  margin: 0; }
 
 h1 {
   font-size: 25pt;
@@ -107,10 +104,10 @@ a {
 
 .infoPersoItem p {
   color: #6272a4;
-  font-weight: 500; }
+  font-family: 'Fira Code Medium', monospace; }
 
 .comment {
-  color: #969896; }
+  color: #6272a4; }
 
 .tag {
   border-style: solid;
@@ -143,7 +140,7 @@ a {
   fill: #ff5555; }
 
 .skillOff svg {
-  fill: #969896; }
+  fill: #6272a4; }
 
 @media print {
   body, .page, header {
@@ -164,7 +161,7 @@ a {
     display: inline-block;
     background-color: #282a36;
     margin-bottom: 0;
-    box-shadow: 0 0 0 #303030;
+    box-shadow: 0 0 0 #44475a;
     width: 100%;
     min-width: 0;
     height: 100%; }
