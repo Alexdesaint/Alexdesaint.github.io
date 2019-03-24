@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  background-color: #282a36;
+  margin-bottom: 1cm; }
+
+header h1 {
+  color: #f8f8f2;
+  font-size: 20pt; }
+
+header p {
+  color: #f8f8f2; }
+
+header a {
+  color: inherit;
+  text-decoration: none; }
+
+@media print {
+  header {
+    display: none; } }
