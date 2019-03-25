@@ -2,6 +2,30 @@
 html {
   font-family: 'Fira Code', monospace; }
 
+header {
+  width: 100%;
+  background-color: #f8f8f2; }
+
+header div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+header h1 {
+  color: #282a36;
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 16px 16px 0 16px; }
+
+header h1 a {
+  color: inherit;
+  text-decoration: none; }
+
+header p {
+  color: #282a36;
+  margin: 10px;
+  text-align: center; }
+
 body {
   background-color: #44475a;
   margin: 0;
@@ -13,63 +37,57 @@ body {
 ::-moz-selection {
   background: #44475a; }
 
-.head {
-  margin: 1.5cm 1.5cm 0cm 1.5cm; }
-
-.page {
+.page, .article {
   display: inline-block;
+  box-sizing: border-box;
   background-color: #282a36;
-  margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm #44475a;
   width: 21cm;
   min-width: 21cm;
+  padding: 1.5cm;
+  margin: 0.5cm;
+  box-shadow: 0 0 0.5cm #44475a; }
+
+.page {
   height: 29.7cm; }
 
-h1, h2, h3, h4, h5, p {
-  margin: 0; }
+h1, h2, h3, h4, h5, p, ul, li {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9pt;
+  color: #f8f8f2; }
 
 h1 {
   font-size: 25pt;
   color: #f8f8f2;
-  font-style: normal;
-  font-weight: normal;
   text-transform: uppercase;
-  margin-bottom: 10px; }
+  margin-bottom: 0.3cm; }
 
 h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.3cm;
+  margin-bottom: 0.3cm;
   font-size: 18pt;
   color: #f8f8f2;
-  text-transform: uppercase;
-  font-style: normal;
-  font-weight: normal; }
+  text-transform: uppercase; }
 
 h3 {
   font-size: 10pt;
-  margin-top: 10px;
+  margin-top: 0.3cm;
   color: #f8f8f2;
-  font-style: normal;
   font-weight: bold; }
 
 h4 {
   color: #50fa7b;
-  font-size: 10pt;
-  font-style: normal;
-  font-weight: normal; }
+  font-size: 10pt; }
 
 h5 {
   color: #50fa7b;
   font-size: 12pt;
-  font-style: normal;
   font-weight: bold;
-  margin-bottom: 10px; }
+  margin-top: 0.3cm;
+  margin-bottom: 0.3cm; }
 
 p {
-  font-size: 9pt;
-  color: #f8f8f2; }
-
-.head p {
   text-align: justify; }
 
 a {
@@ -83,8 +101,7 @@ a {
 .mainSide {
   display: grid;
   grid-template-columns: 65% auto;
-  grid-column-gap: 1cm;
-  margin: 0cm 1.5cm 0cm 1.5cm; }
+  grid-column-gap: 1cm; }
 
 .infoPerso {
   display: flex;
@@ -94,7 +111,7 @@ a {
 
 .infoPersoItem svg {
   fill: #ff79c6;
-  margin: 2px;
+  margin: 1mm;
   height: 9pt; }
 
 .infoPersoItem {
@@ -104,7 +121,7 @@ a {
 
 .infoPersoItem p {
   color: #6272a4;
-  font-family: 'Fira Code Medium', monospace; }
+  font-weight: 500; }
 
 .comment {
   color: #6272a4; }
@@ -114,7 +131,7 @@ a {
   border-width: 1px;
   border-radius: 3px;
   border-color: #ffb86c;
-  padding: 1px;
+  padding: 2px;
   margin: 1px;
   font-style: italic;
   color: #ffb86c;
@@ -130,7 +147,7 @@ a {
   font-size: 8pt; }
 
 .skills {
-  margin-bottom: 5px; }
+  margin-bottom: 2mm; }
 
 .skillBox {
   display: flex;
@@ -142,25 +159,15 @@ a {
 .skillOff svg {
   fill: #6272a4; }
 
-@media print {
-  body, .page, header {
-    margin: 0;
-    box-shadow: 0;
-    background-color: #282a36; }
-
-  .page {
-    width: 100%;
-    height: 100%;
-    min-width: 0;
-    box-shadow: 0 0 0 #282a36; }
-
-  .mainSide, .head {
-    margin: 0; } }
 @media screen and (max-width: 22cm) {
-  .page {
+  header {
+    margin-bottom: 0; }
+
+  .page, .article {
     display: inline-block;
     background-color: #282a36;
-    margin-bottom: 0;
+    padding: 1em;
+    margin: 0;
     box-shadow: 0 0 0 #44475a;
     width: 100%;
     min-width: 0;
@@ -169,40 +176,7 @@ a {
   .mainSide {
     display: flex;
     grid-column-gap: 0cm;
-    flex-wrap: wrap;
-    margin: 1em; }
+    flex-wrap: wrap; }
 
   .head {
     margin: 1em; } }
-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 100%;
-  background-color: #f8f8f2;
-  margin-bottom: 1cm; }
-
-header h1 {
-  color: #282a36;
-  font-size: 20pt;
-  margin: 16px 16px 0 16px; }
-
-header h1 a {
-  color: inherit;
-  text-decoration: none; }
-
-header p {
-  color: #282a36;
-  margin: 0 16px 16px 16px; }
-
-header p a {
-  color: inherit;
-  text-decoration: underline; }
-
-@media print {
-  header {
-    display: none; } }
-@media screen and (max-width: 22cm) {
-  header {
-    margin-bottom: 0; } }

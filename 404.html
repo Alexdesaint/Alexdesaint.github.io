@@ -1,3 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href=/assets/css/GruvboxLight.css>
+		<link rel="stylesheet" href=/assets/css/Tomorrow.css media=print>
+	</head>
+	<script type="text/javascript">
+		function changeCSS(cssFile) {
+
+			var oldlink = document.getElementsByTagName("link").item(0);
+
+			var newlink = document.createElement("link");
+			newlink.setAttribute("rel", "stylesheet");
+			newlink.setAttribute("type", "text/css");
+			newlink.setAttribute("href", cssFile);
+
+			sessionStorage.setItem("layout", cssFile);
+
+			document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+
+		}
+
+		if (sessionStorage.getItem("layout") !== null) {		
+			changeCSS(sessionStorage.getItem("layout"));
+		}
+	</script>
+	<body>
+		<header>
+			<div>
+				<h1><a href="/">Curriculum Vitae</a></h1>
+				<h1><a href="/about/">About</a></h1>
+			</div>
+			<p><a href="#" onclick="changeCSS('/assets/css/Dracula.css');">Dracula</a> - <a href="#" onclick="changeCSS('/assets/css/Tomorrow.css');">Tomorrow</a> - <a href="#" onclick="changeCSS('/assets/css/GruvboxLight.css');">Gruvbox Light</a> - <a href="#" onclick="changeCSS('/assets/css/GruvboxDark.css');">Gruvbox Dark</a></p>
+		</header>
+		<div class="article">
 <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
@@ -19,3 +57,7 @@
   <p>The requested page could not be found.</p>
 </div>
 
+</div>
+
+	</body>
+</html>
