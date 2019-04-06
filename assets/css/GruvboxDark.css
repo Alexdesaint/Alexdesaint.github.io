@@ -38,7 +38,9 @@ body {
   background: #928374; }
 
 .page, .article {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-sizing: border-box;
   background-color: #1d2021;
   width: 21cm;
@@ -64,15 +66,12 @@ h1 {
   margin-bottom: 0.3cm; }
 
 h2 {
-  margin-top: 0.3cm;
-  margin-bottom: 0.3cm;
   font-size: 18pt;
   color: #ebdbb2;
   text-transform: uppercase; }
 
 h3 {
   font-size: 10pt;
-  margin-top: 0.3cm;
   color: #ebdbb2;
   font-weight: bold; }
 
@@ -84,8 +83,7 @@ h5 {
   color: #83a598;
   font-size: 12pt;
   font-weight: bold;
-  margin-top: 0.3cm;
-  margin-bottom: 0.3cm; }
+  margin-top: 0.3cm; }
 
 p {
   text-align: justify; }
@@ -99,9 +97,15 @@ a {
   grid-template-columns: 50% 50%; }
 
 .mainSide {
+  flex: 1;
   display: grid;
   grid-template-columns: 65% auto;
   grid-column-gap: 1cm; }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
 
 .infoPerso {
   display: flex;
@@ -146,12 +150,12 @@ a {
   text-align: left;
   font-size: 8pt; }
 
-.skills {
-  margin-bottom: 2mm; }
-
 .skillBox {
   display: flex;
   justify-content: space-between; }
+
+.skillBox p {
+  font-size: 10pt; }
 
 .skillOn svg {
   fill: #fb4934; }
