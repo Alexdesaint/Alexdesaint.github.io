@@ -20,7 +20,7 @@ input {
 
 header a, header p {
   color: #44475a;
-  padding: 14px 16px;
+  padding: 10px;
   margin: 0;
   text-decoration: none; }
 
@@ -65,27 +65,37 @@ h1 {
   font-size: 25pt;
   color: #f8f8f2;
   text-transform: uppercase;
-  margin-bottom: 0.3cm; }
+  margin-bottom: 0.75em; }
 
 h2 {
-  font-size: 18pt;
-  color: #f8f8f2;
-  text-transform: uppercase; }
+  color: #50fa7b;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em; }
 
 h3 {
+  font-size: 16pt;
+  color: #f8f8f2;
+  text-transform: uppercase;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em; }
+
+.page div {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+.page div .infoPerso, .page div .skillBox, .page div .infoPersoItem {
+  margin: 0; }
+
+h4 {
   font-size: 10pt;
   color: #f8f8f2;
   font-weight: bold; }
 
-h4 {
-  color: #50fa7b;
-  font-size: 10pt; }
-
 h5 {
   color: #50fa7b;
-  font-size: 12pt;
-  font-weight: bold;
-  margin-top: 0.3cm; }
+  font-size: 10pt; }
 
 p {
   text-align: justify; }
@@ -93,10 +103,6 @@ p {
 a {
   color: inherit;
   text-decoration: underline; }
-
-.datePlace {
-  display: grid;
-  grid-template-columns: 50% 50%; }
 
 .mainSide {
   flex: 1;
@@ -162,24 +168,26 @@ a {
 .skillOff svg {
   fill: #6272a4; }
 
+@media screen and (min-width: 22cm) {
+  .page h1, .page h2, .page h3, .page div {
+    margin: 0; } }
 @media screen and (max-width: 22cm) {
   header {
-    margin-bottom: 0; }
+    margin: 0; }
 
   .page, .article {
     display: inline-block;
-    background-color: #44475a;
     padding: 1em;
     margin: 0;
-    box-shadow: 0 0 0 Black;
-    width: 100%;
     min-width: 0;
-    height: 100%; }
+    width: 100%;
+    height: 100%;
+    box-shadow: none; }
 
+  .main {
+    display: inline-block; } }
+@media screen and (max-width: 16cm) {
   .mainSide {
-    display: flex;
-    grid-column-gap: 0cm;
-    flex-wrap: wrap; }
-
-  .head {
-    margin: 1em; } }
+    display: inline-block;
+    flex: 0;
+    grid-column-gap: 0cm; } }
