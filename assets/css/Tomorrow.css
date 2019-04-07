@@ -121,12 +121,10 @@ a {
 .infoPersoItem {
   display: flex;
   justify-content: flex-start;
-  align-items: center; }
-
-.infoPersoItem p {
+  align-items: center;
   color: #3e999f; }
 
-.comment {
+.infoPersoItem p {
   color: #3e999f; }
 
 .tag {
