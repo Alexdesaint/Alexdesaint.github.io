@@ -8,33 +8,13 @@
 		<link rel="stylesheet" href=/assets/css/Tomorrow.css media=print>
 		<title>Curriculum Vitae</title>
 	</head>
-	<script type="text/javascript">
-		function changeCSS(cssFile) {
-
-			var oldlink = document.getElementsByTagName("link").item(0);
-
-			var newlink = document.createElement("link");
-			newlink.setAttribute("rel", "stylesheet");
-			newlink.setAttribute("type", "text/css");
-			newlink.setAttribute("href", cssFile);
-
-			sessionStorage.setItem("layout", cssFile);
-
-			document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
-
-		}
-
-		if (sessionStorage.getItem("layout") !== null) {		
-			changeCSS(sessionStorage.getItem("layout"));
-		}
-	</script>
 	<body>
 		<header>
 			<div>
-				<h1><a href="/">Curriculum Vitae</a></h1>
-				<h1><a href="/about/">About</a></h1>
+				<a href="/">Curriculum Vitae</a>
+				<a href="/about/">About</a>
+				<p>Night Mode <input type="checkbox" id="themeCheckbox" onclick="changeTheme()"></p>
 			</div>
-			<p><a href="#" onclick="changeCSS('/assets/css/Dracula.css');">Dracula</a> - <a href="#" onclick="changeCSS('/assets/css/Tomorrow.css');">Tomorrow</a> - <a href="#" onclick="changeCSS('/assets/css/GruvboxLight.css');">Gruvbox Light</a> - <a href="#" onclick="changeCSS('/assets/css/GruvboxDark.css');">Gruvbox Dark</a></p>
 		</header>
 		<div class="page">
 	<div>
@@ -237,4 +217,36 @@
 </div>
 
 	</body>
+
+	<script type="text/javascript">
+
+		function changeTheme() {
+			var checkBox = document.getElementById("themeCheckbox");
+			if (checkBox.checked == false) {
+				changeCSS('/assets/css/Tomorrow.css');
+				sessionStorage.setItem("checkbox", "false");
+			} else {
+				changeCSS('/assets/css/Dracula.css');
+				sessionStorage.setItem("checkbox", "true");
+			}
+		}
+
+if (sessionStorage.getItem("checkbox") === "true") {	
+	document.getElementById("themeCheckbox").checked = sessionStorage.getItem("checkbox");
+	changeTheme();
+}
+
+function changeCSS(cssFile) {
+
+	var oldlink = document.getElementsByTagName("link").item(0);
+
+	var newlink = document.createElement("link");
+	newlink.setAttribute("rel", "stylesheet");
+	newlink.setAttribute("type", "text/css");
+	newlink.setAttribute("href", cssFile);
+
+	document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+
+}
+	</script>
 </html>

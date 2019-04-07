@@ -6,25 +6,27 @@ header {
   width: 100%;
   background-color: #4d4d4c; }
 
+header a:hover {
+  background-color: #ffffff;
+  color: #4d4d4c; }
+
 header div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
 
-header h1 {
-  color: #ffffff;
-  font-size: 14pt;
-  font-weight: bold;
-  margin: 16px 16px 0 16px; }
+input {
+  margin: 0; }
 
-header h1 a {
-  color: inherit;
+header a, header p {
+  color: #ffffff;
+  padding: 14px 16px;
+  margin: 0;
   text-decoration: none; }
 
-header p {
-  color: #ffffff;
-  margin: 10px;
-  text-align: center; }
+header a {
+  font-size: 14pt;
+  font-weight: bold; }
 
 body {
   background-color: #8e908c;
