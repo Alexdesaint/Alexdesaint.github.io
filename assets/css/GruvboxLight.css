@@ -100,12 +100,7 @@ p {
 a {
   text-decoration: underline; }
 
-svg {
-  max-width: 100%;
-  width: 100%;
-  height: 100%; }
-
-svg polygon {
+object svg polygon {
   fill: #f9f5d7; }
 
 svg .if polygon {
