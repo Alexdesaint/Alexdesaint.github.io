@@ -40,9 +40,6 @@ body {
   background: #928374; }
 
 .page, .article {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   box-sizing: border-box;
   background-color: #32302f;
   width: 21cm;
@@ -52,9 +49,12 @@ body {
   box-shadow: 0 0 0.5cm Black; }
 
 .page {
-  height: 29.7cm; }
+  height: 29.7cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
-h1, h2, h3, h4, h5, p, ul, li {
+h1, h2, h3, h4, h5, p, a, ul, li {
   margin: 0;
   font-style: normal;
   font-weight: normal;
@@ -63,8 +63,6 @@ h1, h2, h3, h4, h5, p, ul, li {
 
 h1 {
   font-size: 25pt;
-  color: #ebdbb2;
-  text-transform: uppercase;
   margin-bottom: 0.75em; }
 
 h2 {
@@ -76,7 +74,6 @@ h2 {
 
 h3 {
   font-size: 16pt;
-  color: #ebdbb2;
   text-transform: uppercase;
   margin-top: 0.75em;
   margin-bottom: 0.75em; }
@@ -101,8 +98,51 @@ p {
   text-align: justify; }
 
 a {
-  color: inherit;
   text-decoration: underline; }
+
+svg {
+  max-width: 100%;
+  width: 100%;
+  height: 100%; }
+
+svg polygon {
+  fill: #32302f; }
+
+svg .if polygon {
+  stroke: #fe8019;
+  fill: #32302f; }
+
+svg .if text {
+  fill: #fe8019;
+  font-family: "Fira Code";
+  font-size: 9pt; }
+
+svg .start path {
+  stroke: #83a598;
+  fill: #32302f; }
+
+svg .start text {
+  fill: #83a598;
+  font-family: "Fira Code";
+  font-size: 9pt; }
+
+svg .type polygon {
+  stroke: #fb4934;
+  fill: #32302f; }
+
+svg .type text {
+  fill: #fb4934;
+  font-family: "Fira Code";
+  font-size: 8pt; }
+
+svg .edge path, svg .edge polygon {
+  stroke: #ebdbb2;
+  fill: #ebdbb2; }
+
+svg .edge text {
+  fill: #ebdbb2;
+  font-family: "Fira Code";
+  font-size: 9pt; }
 
 .mainSide {
   flex: 1;
@@ -124,7 +164,8 @@ a {
 .infoPersoItem svg {
   fill: #d3869b;
   margin: 1mm;
-  height: 9pt; }
+  height: 10pt;
+  width: 10pt; }
 
 .infoPersoItem {
   display: flex;
@@ -132,7 +173,7 @@ a {
   align-items: center;
   color: #8ec07c; }
 
-.infoPersoItem p {
+.infoPersoItem p, .infoPersoItem a {
   color: #8ec07c; }
 
 .tag {
@@ -163,10 +204,28 @@ a {
   font-size: 10pt; }
 
 .skillOn svg {
-  fill: #fb4934; }
+  fill: #fb4934;
+  height: 12pt;
+  width: 12pt; }
 
 .skillOff svg {
-  fill: #a89984; }
+  fill: #a89984;
+  height: 12pt;
+  width: 12pt; }
+
+.latex sub {
+  vertical-align: -0.3ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em; }
+
+.latex, .latex sub {
+  font-size: 1em; }
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em; }
 
 @media screen and (min-width: 22cm) {
   .page h1, .page h2, .page h3, .page div {
