@@ -10,7 +10,7 @@ header a:hover {
   background-color: #32302f;
   color: #ebdbb2; }
 
-header div {
+header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
@@ -27,6 +27,9 @@ header a, header p {
 header a {
   font-size: 14pt;
   font-weight: bold; }
+
+header .Projects a {
+  font-size: 9pt; }
 
 body {
   background-color: #1d2021;
