@@ -21,8 +21,7 @@ div.submenu a {
   text-decoration: none;
   padding: 5px;
   margin-right: 4px;
-  background-color: #1d2021;
-  position: relative; }
+  background-color: #1d2021; }
 
 div.submenu a.active {
   background-color: #32302f; }
@@ -66,13 +65,15 @@ body {
   min-width: 21cm;
   padding: 1.5cm;
   margin-top: 1cm;
-  margin-bottom: 0.5cm;
+  margin-bottom: 0.5cm; }
+
+.image {
+  max-width: 100%; }
+
+.page, .article, div.submenu a, .image {
   position: relative; }
 
-.page, .article, div.submenu a, .shadow {
-  position: relative; }
-
-.page:before, .article:before, div.submenu a:before, .shadow:before {
+.page:before, .article:before, div.submenu a:before, .image:before {
   content: "";
   box-shadow: 0 0 0.5cm Black;
   position: absolute;
