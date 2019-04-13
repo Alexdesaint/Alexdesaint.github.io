@@ -27,16 +27,6 @@ div.submenu a {
 div.submenu a.active {
   background-color: #ffffff; }
 
-div.submenu a:before {
-  box-shadow: 0 0 0.5cm #4d4d4c;
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1; }
-
 header a:hover {
   background-color: #ffffff;
   color: #4d4d4c; }
@@ -79,7 +69,7 @@ body {
   margin-bottom: 0.5cm;
   position: relative; }
 
-.page:before, .article:before {
+.page:before, .article:before, div.submenu a:before {
   content: "";
   box-shadow: 0 0 0.5cm #4d4d4c;
   position: absolute;
