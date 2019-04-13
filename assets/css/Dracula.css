@@ -69,7 +69,7 @@ body {
   margin-bottom: 0.5cm;
   position: relative; }
 
-.page:before, .article:before, div.submenu a:before {
+.page:before, .article:before, div.submenu a:before, .shadow:before {
   content: "";
   box-shadow: 0 0 0.5cm Black;
   position: absolute;
