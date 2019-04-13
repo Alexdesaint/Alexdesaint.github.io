@@ -137,12 +137,7 @@ h5 {
 a {
   text-decoration: underline; }
 
-object {
-  max-width: 100%;
-  width: 100%;
-  height: 100%; }
-
-object svg polygon {
+svg polygon {
   fill: #ffffff; }
 
 svg .if polygon {
