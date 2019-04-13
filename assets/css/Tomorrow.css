@@ -69,6 +69,9 @@ body {
   margin-bottom: 0.5cm;
   position: relative; }
 
+.page, .article, div.submenu a, .shadow {
+  position: relative; }
+
 .page:before, .article:before, div.submenu a:before, .shadow:before {
   content: "";
   box-shadow: 0 0 0.5cm #4d4d4c;
