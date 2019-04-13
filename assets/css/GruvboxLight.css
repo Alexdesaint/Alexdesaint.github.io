@@ -68,7 +68,9 @@ body {
   margin-bottom: 0.5cm; }
 
 .image {
-  max-width: 100%; }
+  max-width: 100%;
+  margin-top: 1cm;
+  margin-bottom: 0.5cm; }
 
 .page, .article, div.submenu a, .image {
   position: relative; }
@@ -130,6 +132,9 @@ h5 {
 
 a {
   text-decoration: underline; }
+
+svg {
+  max-width: 100%; }
 
 svg polygon {
   fill: #f9f5d7; }
