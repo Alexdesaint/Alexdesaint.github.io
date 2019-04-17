@@ -305,4 +305,7 @@ svg .edge text {
     width: auto;
     height: 99.9%;
     min-width: 0;
-    position: absolute; } }
+    position: absolute; }
+
+  .page:before, .article:before, div.submenu a:before, .image:before {
+    box-shadow: none; } }
