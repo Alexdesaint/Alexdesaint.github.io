@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://alexdesaint.github.io/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>http://alexdesaint.github.io/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>http://alexdesaint.github.io/cven/</loc>
+    <loc>/cven/</loc>
   </url>
   
   <url>
-    <loc>http://alexdesaint.github.io/cvfr/</loc>
+    <loc>/cvfr/</loc>
   </url>
   
 </urlset>
