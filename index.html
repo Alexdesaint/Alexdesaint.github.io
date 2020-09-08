@@ -2,29 +2,19 @@
 
 <html lang="en">
 	<head>
-	<meta name="generator" content="Hugo 0.71.1" />
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans&family=Fira+Sans+Condensed&family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href=/scss/default.min.css>
+		<link rel="stylesheet" href=/scss/main.min.css>
 		<script defer src="/all.min.js"></script>
 		<title>Curriculum Vitae</title>
 	</head>
-	<body id="body"  class="light-mode">
-		<header for="themeCheckbox">
-			<div class="menu">
-				
-				
-				<a href="/"  class="active" >Curriculum Vitae</a>
-				
-				
-			</div>
-		</header>
-
+	<body>
+		
 
 <div class="page">
 	<div class="head">
-		<img src="photo.jpg" alt="Alexandre de Saint Blanquat">
+		<img src="/photo.jpg" alt="Alexandre de Saint Blanquat" onclick="toggleDarkLight()">
 		<div>
 			<h1>Alexandre de Saint Blanquat</h1>
 			<h2>Robotic and Interactive Systems Graduate Engineer</h2>
@@ -162,11 +152,7 @@
 </body>
 		<script type="text/javascript">
 			function toggleDarkLight() {
-				var body = document.getElementById("body");
-				var currentClass = body.className;
-				body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+				document.documentElement.classList.toggle("dark");
 			}
 		</script>
 </html>
-
-

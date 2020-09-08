@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Curriculum Vitae on Alexandre de Saint Blanquat</title>
+    <title>Alexandre de Saint Blanquat</title>
     <link>/</link>
-    <description>Recent content in Curriculum Vitae on Alexandre de Saint Blanquat</description>
+    <description>Recent content on Alexandre de Saint Blanquat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,31 +11,11 @@
     
     
     <item>
-      <title>about</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>About About this website This website has been generated with Hugo and is hosted by GitHub.
-The different colours have been taken from these projects:
- Tomorrow for the normal theme. Dracula for the night mode.  About me If you would like to learn more about me, you can read my resume or take a look at my GitHub page.</description>
-    </item>
-    
-    <item>
       <title>Curriculum Vitae</title>
-      <link>/cv3d/</link>
+      <link>/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cv3d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Curriculum Vitae</title>
-      <link>/cvfr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/cvfr/</guid>
+      <guid>/</guid>
       <description></description>
     </item>
     

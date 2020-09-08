@@ -3,19 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
     <loc>/</loc>
   </url>
   
   <url>
-    <loc>/cv3d/</loc>
-  </url>
-  
-  <url>
-    <loc>/cvfr/</loc>
+    <loc>/</loc>
   </url>
   
 </urlset>
