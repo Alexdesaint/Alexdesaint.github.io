@@ -5,19 +5,13 @@
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans&family=Fira+Sans+Condensed&family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href=/scss/default.min.css>
+		<link rel="stylesheet" href=/scss/main.min.css>
 		<script defer src="/all.min.js"></script>
 		<title>about</title>
 	</head>
-	<body id="body"  class="light-mode">
+	<body>
 		<header for="themeCheckbox">
-			<div class="menu">
-				
-				
-				<a href="/" >Curriculum Vitae</a>
-				
-				
-			</div>
+			
 		</header>
 <div class="article">
 <h1 id="about">About</h1>
@@ -35,11 +29,7 @@
 </body>
 		<script type="text/javascript">
 			function toggleDarkLight() {
-				var body = document.getElementById("body");
-				var currentClass = body.className;
-				body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+				document.documentElement.classList.toggle("dark");
 			}
 		</script>
 </html>
-
-

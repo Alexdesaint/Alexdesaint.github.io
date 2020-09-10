@@ -5,24 +5,18 @@
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans&family=Fira+Sans+Condensed&family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href=/scss/default.min.css>
+		<link rel="stylesheet" href=/scss/main.min.css>
 		<script defer src="/all.min.js"></script>
 		<title>Curriculum Vitae</title>
 	</head>
-	<body id="body"  class="light-mode">
+	<body>
 		<header for="themeCheckbox">
-			<div class="menu">
-				
-				
-				<a href="/" >Curriculum Vitae</a>
-				
-				
-			</div>
+			
 		</header>
 
 <div class="page">
 	<div class="head">
-		<img src="/photo.jpg" alt="Alexandre de Saint Blanquat">
+		<img src="/photo.jpg" alt="Alexandre de Saint Blanquat" onclick="toggleDarkLight()">
 		<div>
 			<h1>Alexandre de Saint Blanquat</h1>
 			<h2>Etudiant en robotique</h2>
@@ -46,9 +40,7 @@
 		
 	</div>
 	<h5>LAMOR - Laboratory for Autonomous Systems and Mobile Robotics</h5>
-	<ul><li>Intégration de détecteurs laser avec ROS</li>
-		
-	</ul>
+	<p>Intégration de détecteurs laser avec ROS</p>
 	
 	<p class="tag">Robotique</p><p class="tag">Réseau</p><p class="tag">Unix</p>
 	
@@ -62,9 +54,7 @@
 		
 	</div>
 	<h5>Université Paul Sabatier, Département des Sports</h5>
-	<ul><li>L&#39;appareil est capable de calculer le temps qu&#39;un athlète de trampoline passe en vol.</li><li>Team-leader d&#39;un groupe de 5 étudiants.</li>
-		
-	</ul>
+	<p>L&rsquo;appareil est capable de calculer le temps qu&rsquo;un athlète de trampoline passe en vol.</p><p>Team-leader d&rsquo;un groupe de 5 étudiants.</p>
 	
 	<p class="tag">Système temps réel</p><p class="tag">Electronique</p><p class="tag">GIT</p>
 	
@@ -78,9 +68,7 @@
 		
 	</div>
 	<h5>Sceno Photo, une Start-up spécialisée en PhotoBooth</h5>
-	<ul><li>Prototypage d&#39;un serveur d&#39;impression portable sur Raspbberry.</li>
-		
-	</ul>
+	<p>Prototypage d&rsquo;un serveur d&rsquo;impression portable sur Raspbberry.</p>
 	
 	<p class="tag">Unix</p><p class="tag">Réseau</p>
 	
@@ -96,9 +84,7 @@
 		
 	</div>
 	<h5>BlobEngine</h5>
-	<ul><li>Projet réalisé en autodidacte afin d&#39;apprendre OpenGl.</li>
-		
-	</ul>
+	<p>Projet réalisé en autodidacte afin d&rsquo;apprendre OpenGl.</p>
 	
 	<p class="tag">OpenGL 4.5</p><p class="tag">CMAKE</p>
 	
@@ -114,9 +100,7 @@
 		
 	</div>
 	<h5>UPSSITECH - Université Paul Sabatier Science de l&#39;Ingénerie et des Techologies</h5>
-	<ul><li>Première année de Master.</li><li>Actuellement en ERASMUS, à l&#39;université de Zagreb (Faculty of Electrical Engineering and Computing).</li>
-		
-	</ul>
+	<p>Première année de Master.</p><p>Actuellement en ERASMUS, à l&rsquo;université de Zagreb (Faculty of Electrical Engineering and Computing).</p>
 	
 	<p class="tag">Robotique</p><p class="tag">Système temps réel</p><p class="tag">Automatique</p>
 	
@@ -130,9 +114,7 @@
 		
 	</div>
 	<h5>Université Paul Sabatier</h5>
-	<ul><li>Classé 16ème sur 160.</li>
-		
-	</ul>
+	<p>Classé 16ème sur 160.</p>
 	
 	<p class="tag">Electronique</p><p class="tag">Système temps réel</p><p class="tag">Automatique</p>
 	
@@ -146,16 +128,15 @@
 		
 	</div>
 	<h5>Lycée Français René-Descartes de Phnom Penh</h5>
-	<ul><li>Après avoir fait une partie de ma scolarité en France, j&#39;ai été expatrié de la classe de 4ème à la terminale au Cambodge.</li>
-		
-	</ul>
+	<p>Après avoir fait une partie de ma scolarité en France, j&rsquo;ai été expatrié de la classe de 4ème à la terminale au Cambodge.</p>
+	
 	
 </div>
 
 		</div>
 		<div class="side">
 			<h3>Skills</h3>
-			<div><h4>Robotique</h4><p>Calcul de trajectoire pour robot industriel, Robotic Operating Software (ROS)</p></div><div><h4>Système temps réel</h4><p>Grafcet, Réseau de Pétrie</p></div><div><h4>Automatique</h4><p>Feedback et feed-forward control</p></div><div><h4>Réseau</h4><p>TCP/UDP, CAN, I2C, UART...</p></div><div><h4>Electronique</h4><p>Numérique Avancée, Analogique Basique</p></div>
+			<div><h4>Robotique</h4><p>Calcul de trajectoire pour robot industriel, Robotic Operating Software (ROS)</p></div><div><h4>Système temps réel</h4><p>Grafcet, Réseau de Pétrie</p></div><div><h4>Automatique</h4><p>Feedback et feed-forward control</p></div><div><h4>Réseau</h4><p>TCP/UDP, CAN, I2C, UART&hellip;</p></div><div><h4>Electronique</h4><p>Numérique Avancée, Analogique Basique</p></div>
 			
 			
 		</div>
@@ -163,12 +144,11 @@
 </div>
 
 
+
 </body>
 		<script type="text/javascript">
 			function toggleDarkLight() {
-				var body = document.getElementById("body");
-				var currentClass = body.className;
-				body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+				document.documentElement.classList.toggle("dark");
 			}
 		</script>
 </html>
