@@ -1,0 +1,160 @@
+---
+title: "Curriculum Vitae"
+type: "resume"
+name: Alexandre de Saint Blanquat
+mail: alexandredlsb@gmail.com
+phone: (+33)7 83 89 52 43
+location: Toulouse, France
+github: alexdesaint
+accroche: Robotic and Interactive Systems Graduate Engineer
+intro: >-
+  Twenty-three-years-old with a master’s degree level, I have developed a strong expertise in C++ programming and 3D graphics.
+  I love searching, developing and optimising cutting-edge algorithms to make the best of new technologies.
+  Willing to start a new professional experience abroad.
+education:
+- name: "Robotic and Interactive Systems Engineer Degree"
+  location: UPSSITECH, University Paul Sabatier
+  date: 2017 - 2020
+  place: Toulouse, France
+  subObjects:
+- name: ERASMUS
+  location: University of Zagreb, Faculty of Electrical Engineering and Computing
+  date: Summer semester 2019
+  place: Zagreb, Croatia
+- name: Electrical and Industrial Computer Sciences Technical Degree
+  location: University Institute of technology, University Paul Sabatier
+  date: 2015 - 2017
+  place: Toulouse, France
+- text:
+  - Hight scool in Phnom Penh (Cambodia)
+experience:
+- name: Apprenticeship at Safran on Augmented Reality glasses
+  location: Safran Electrical & Power, Interconnection Systems Eurasia, Design Office
+  text:
+  - Experimented with *Hololens 2* how augmented reality glasses can be used in the plane cabling process.
+  - Implementing cable harness visualisation, synchronisation between *Hololens*, and new augmented Reality interactions.
+  tags:
+  - Graphics Engine
+  - Interactive Systems
+  - Unity
+  date: Sept. 2019 - August 2020
+  place: Blagnac, France
+- name: Internship at LAMOR on a logistic robot
+  location: LAMOR - Laboratory for Autonomous Systems and Mobile Robotics
+  text:
+  - Integrated safety laser scanners, safety controllers and emergency stop button to a warehouse robot. Added a ROS package to decode the data stream and help in coding the engines controller.
+  tags:
+  - Robotic
+  - Linux
+  - C++
+  date: March - July 2019
+  place: Zagreb, Croatia
+- name: Internship in prototyping a portable printing server
+  location: Sceno Photo, a Start-up specialised in PhotoBooth
+  text:
+  - Prototyped a server with a Raspberry to print pictures taken by a Photo Booth during events.
+  tags:
+  - Interactive Systems
+  - Linux
+  - C++
+  date:  April - June 2017
+  place: Bordeaux, France
+skills:
+- tag: Robotic
+  text:
+  - Graduated from a Master Degree focused on robotic integration, I can inplement 3D kinematics, collisions detection and computer vision.
+- tag: 3D graphics
+  text:
+  - 3D enthusiast, good understanding of graphical engine and *OpenGL* API.
+- tag: Interactive Systems
+  text:
+  - I can create intuitive applications that interact with users, the environment or with other devices.
+- tag: C++
+  text:
+  - The most used programming language in internships, school and personal projects. I complemented my university teaching in C++ with practising and learning advanced techniques.
+- tag: Linux
+  text:
+  - Daily Linux user, it's my working environment of choice.
+- tag: Unity
+  text:
+  - Used with C# to make augmented reality applications.
+- tag: Project Management
+  text:
+  - Organised and rigorous, used to manage projects in autonomy.
+  - Team-player, ready to meet customer needs and enjoy sharing knowledge and findings.
+  - Confortble in multicultural environemnts.
+- tag: Languages
+  text:
+  - Native French, fluent in English.
+selfLearning:
+- name: Open source graphics engine
+  date: Since Mar 2018
+  github: alexdesaint/BlobEngine
+  text:
+  - Working on the creation of a 3D engine, rendering shapes with *OpenGL* and using ImGUI for graphical interfaces.
+  - Finishing the glTF2 loader and starting shadow mapping.
+  tags:
+  - Graphics Engine
+  - C++
+---
+
+# Projects overview
+
+## Wiring harness viewer for Augmented Reality glasses
+##### Apprenticeship at Safran 
+
+{{< column/1 >}}
+
+<!--
+As an apprentice I had to assess the Hololens 2 for industrial use in the plane cabling process. 
+Part of this assessment was to visualise wiring harness on augmented reality glasses to guide technicians in the harness construction. Factories are operating with paper schematics and use it as data carrier between design offices and factories so my starting point was a paper diagram.
+-->
+As an apprentice I had to assess the *Hololens 2* glasses to improve the industrial use in the plane cabling process.
+These augmented reality glasses could at terme be used in the wiring harness manufacture: instead of wiring on printed schematics plans, techian could directly visualising the schematics in the glasses. 
+
+
+
+{{< column/2 >}}
+<!--
+I extracted coordinate information from the schematics and made a dynamic shematics generator with Unity3D that runs on augmented reality glasses.
+-->
+In order to read the schematics sent by the design offices, I had to create a software able to translate 2D vectorial drawings into 3D space.
+This led to new features like path finding in the wire network or decomposing the plan into several layers.
+ 
+{{< column/end >}}
+
+{{< figure src="/harness.png" caption="Wiring harness in Augmented Reality." >}}
+
+{{< column/1 >}}
+
+## Designing and setting up omnidirectional safety laser
+##### Internship at LAMOR on a logistic robot
+
+My mission was to upgrade an existing logistic robot with safety sensors:
+
+{{< figure src="/robotLamor2.jpg" >}}
+
+> "Alexandre visited our laboratory during his international internship in Croatia. Immediately, he has shown great enthusiasm for the projects that we were conducting at the time. Specifically, he was involved in designing and setting up an omnidirectional safety laser system for a mobile robot intended to carry pallets. He was independent and showed impressive knowledge, especially in the area of embedded engineering. At the end of his internship the system was operational and ensured safe stopping of robot. All that, while at the same he had to tackle a university semester in a foreign country."
+
+-- Ivan Markovic, Assistant Professor
+
+{{< column/2 >}}
+
+## Open source graphics engine
+
+##### [Alexdesaint/BlobEngine](https://github.com/Alexdesaint/BlobEngine)
+
+In 2018 I started this project for learning purposes. I put in practice the 3D kinematics and C++ programming learned in robotics classes.
+With C++, CMAKE and *OpenGL 4.5* I am coding this engine with simplicity in mind and with minimal dependancy :
+
+- [Dav1dde/glad](https://github.com/Dav1dde/glad) to load *OpenGL*
+- [GLFW](https://www.glfw.org/) to create the Window and handle inputs
+- [ocornut/imgui](https://github.com/ocornut/imgui) to create graphical interfaces
+- [nlohmann/json](https://github.com/nlohmann/json) to load GLTF json files
+- [nothings/stb](https://github.com/nothings/stb) to load image for texturing
+
+My objective is to one day use this project in a professional application and to continue the developpement with the Vulkan API.
+
+{{< figure src="/BlobEngine.png" >}}
+
+{{< column/end >}}
