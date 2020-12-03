@@ -26,13 +26,13 @@ education:
   date: 2015 - 2017
   place: Toulouse, France
 - text:
-  - Hight scool in Phnom Penh (Cambodia)
+  - High school in Phnom Penh (Cambodia)
 experience:
-- name: Apprenticeship at Safran on Augmented Reality glasses
+- name: Apprenticeship at Safran on augmented reality glasses
   location: Safran Electrical & Power, Interconnection Systems Eurasia, Design Office
   text:
   - Experimented with *Hololens 2* how augmented reality glasses can be used in the plane cabling process.
-  - Implementing cable harness visualisation, synchronisation between *Hololens*, and new augmented Reality interactions.
+  - Implementing cable harness visualisation, synchronisation between *Hololens*, and new augmented reality interactions.
   tags:
   - Graphics Engine
   - Interactive Systems
@@ -62,7 +62,7 @@ experience:
 skills:
 - tag: Robotic
   text:
-  - Graduated from a Master Degree focused on robotic integration, I can inplement 3D kinematics, collisions detection and computer vision.
+  - Graduated from a Master Degree focused on robotic integration, I can implement 3D kinematics, collision detection and computer vision.
 - tag: 3D graphics
   text:
   - 3D enthusiast, good understanding of graphical engine and *OpenGL* API.
@@ -81,8 +81,8 @@ skills:
 - tag: Project Management
   text:
   - Organised and rigorous, used to manage projects in autonomy.
-  - Team-player, ready to meet customer needs and enjoy sharing knowledge and findings.
-  - Confortble in multicultural environemnts.
+  - Team player, ready to meet customer needs and enjoy sharing knowledge and findings.
+  - Comfortable in multicultural environment.
 - tag: Languages
   text:
   - Native French, fluent in English.
@@ -100,7 +100,7 @@ selfLearning:
 
 # Projects overview
 
-## Wiring harness viewer for Augmented Reality glasses
+## Wiring harness viewer for augmented reality glasses
 ##### Apprenticeship at Safran 
 
 {{< column/1 >}}
@@ -109,21 +109,20 @@ selfLearning:
 As an apprentice I had to assess the Hololens 2 for industrial use in the plane cabling process. 
 Part of this assessment was to visualise wiring harness on augmented reality glasses to guide technicians in the harness construction. Factories are operating with paper schematics and use it as data carrier between design offices and factories so my starting point was a paper diagram.
 -->
-As an apprentice I had to assess the *Hololens 2* glasses to improve the industrial use in the plane cabling process.
-These augmented reality glasses could at terme be used in the wiring harness manufacture: instead of wiring on printed schematics plans, techian could directly visualising the schematics in the glasses. 
-
-
+At Safran Electrical & Power design office, I had to assess the *Hololens 2* glasses to improve the industrial use in the plane cabling process.
+The purpose of this R&D project was to use the augmented reality glasses in the wiring harness manufacture. Instead of wiring on printed schematic plans, technicians could directly visualise the schematic in the glasses. 
 
 {{< column/2 >}}
 <!--
+These augmented reality glasses could at term be used in the wiring harness manufacture: 
 I extracted coordinate information from the schematics and made a dynamic shematics generator with Unity3D that runs on augmented reality glasses.
 -->
-In order to read the schematics sent by the design offices, I had to create a software able to translate 2D vectorial drawings into 3D space.
+In order to read the schematic sent by the design offices, I had to create a software able to translate 2D vectorial drawings into 3D space for augmented reality.
 This led to new features like path finding in the wire network or decomposing the plan into several layers.
- 
+
 {{< column/end >}}
 
-{{< figure src="/harness.png" caption="Wiring harness in Augmented Reality." >}}
+{{< figure src="/harness.png" caption="Wiring harness in augmented reality" >}}
 
 {{< column/1 >}}
 
@@ -134,7 +133,7 @@ My mission was to upgrade an existing logistic robot with safety sensors:
 
 {{< figure src="/robotLamor2.jpg" >}}
 
-> "Alexandre visited our laboratory during his international internship in Croatia. Immediately, he has shown great enthusiasm for the projects that we were conducting at the time. Specifically, he was involved in designing and setting up an omnidirectional safety laser system for a mobile robot intended to carry pallets. He was independent and showed impressive knowledge, especially in the area of embedded engineering. At the end of his internship the system was operational and ensured safe stopping of robot. All that, while at the same he had to tackle a university semester in a foreign country."
+> "*Alexandre visited our laboratory during his international internship in Croatia. Immediately, he has shown great enthusiasm for the projects that we were conducting at the time. Specifically, he was involved in designing and setting up an omnidirectional safety laser system for a mobile robot intended to carry pallets. He was independent and showed impressive knowledge, especially in the area of embedded engineering. At the end of his internship the system was operational and ensured safe stopping of robot. All that, while at the same he had to tackle a university semester in a foreign country.*"
 
 -- Ivan Markovic, Assistant Professor
 
@@ -145,7 +144,7 @@ My mission was to upgrade an existing logistic robot with safety sensors:
 ##### [Alexdesaint/BlobEngine](https://github.com/Alexdesaint/BlobEngine)
 
 In 2018 I started this project for learning purposes. I put in practice the 3D kinematics and C++ programming learned in robotics classes.
-With C++, CMAKE and *OpenGL 4.5* I am coding this engine with simplicity in mind and with minimal dependancy :
+With C++, CMAKE and *OpenGL 4.5* I am coding this engine with simplicity in mind and with minimal dependency :
 
 - [Dav1dde/glad](https://github.com/Dav1dde/glad) to load *OpenGL*
 - [GLFW](https://www.glfw.org/) to create the Window and handle inputs
@@ -153,8 +152,8 @@ With C++, CMAKE and *OpenGL 4.5* I am coding this engine with simplicity in mind
 - [nlohmann/json](https://github.com/nlohmann/json) to load GLTF json files
 - [nothings/stb](https://github.com/nothings/stb) to load image for texturing
 
-My objective is to one day use this project in a professional application and to continue the developpement with the Vulkan API.
+{{< figure src="/BlobEngine.png" caption="A procedural island generated and rendered with the BlobEngine" >}}
 
-{{< figure src="/BlobEngine.png" >}}
+In the future my purpose is to use this engine in a professional application and to continue the development with the Vulkan API.
 
 {{< column/end >}}
