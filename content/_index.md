@@ -4,7 +4,7 @@ type: "resume"
 name: Alexandre de Saint Blanquat
 mail: alexandredlsb@gmail.com
 phone: +33 7 83 89 52 43
-location: Utrecht, NL
+location: Ansterdam, NL
 github: alexdesaint
 accroche: Low Latency Software Developer
 intro: >-
