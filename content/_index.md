@@ -94,6 +94,6 @@ skills:
   - Team player, I enjoy popularizing the technical parts and collaboration with specialist of different fields.
 - tag: About me
   text:
-  - I did my hight school in Cambodia and my studies in Toulouse. I like to take pictures, skiing and having a beer for the after work.
+  - I did my hight school in Cambodia and my studies in Toulouse. I like to take pictures, skiing and having a beers for the after work.
   - Native French, fluent in English.
 ---
