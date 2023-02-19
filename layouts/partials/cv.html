@@ -1,0 +1,64 @@
+<div class="page cv">
+	<div class="marginMBottom row">
+		<img src="/photo.jpg" alt="Alexandre de Saint Blanquat" onclick="toggleDarkLight()" class="profile">
+		<div class="space-between">
+			<h1>{{ .name }}</h1>
+			<h3>{{ .accroche }}</h3>
+			<p>{{ .intro | markdownify }}</p>
+			<div class="space-between-row marginSTop">
+				<p class="infoPersoItem">
+					<!-- <i class="far fa-envelope"></i> -->
+					{{ .location }}
+				</p>
+				<p class="infoPersoItem">
+					<!-- <i class="far fa-envelope"></i> -->
+					{{ .mail }}
+				</p>
+				<p class="infoPersoItem">
+					<!-- <i class="fas fa-mobile-alt"></i> -->
+					{{ .phone }}
+				</p>
+				<!-- <p class="infoPersoItem"> -->
+				<!-- <i class="fab fa-github"></i> -->
+				<!-- <a href="https://github.com/{{ .github }}" target="_blank">github.com/{{ .github
+						}}</a>
+				</p> -->
+			</div>
+		</div>
+	</div>
+	<div class="core">
+		<div class="main space-between">
+			<h2>Experiences</h2>
+			{{ range .experience }}{{ partial "object.html" . }}{{ end }}
+			<h2>Education</h2>
+			{{ range .education }}{{ partial "object.html" . }}{{ end }}
+		</div>
+		<div class="side space-between">
+			<h2>Skills</h2>
+			{{ range .skills }}
+			<div>
+				{{ if .tag }}
+				<p class="tag">
+					{{ .tag }}
+				</p>
+				{{ end }}
+				{{ if .text }}
+				{{ range .text }}
+				<p style="padding: 0.5em 0 0 0.5em;border-left: 1pt solid;">
+					{{ . | markdownify }}
+				</p>
+				{{ end }}
+				{{ end }}
+				{{ if .github }}
+				<p style="padding: 0.5em 0 0 0.5em;border-left: 1pt solid;">
+					<i class="fab fa-github"></i>
+					<a href="https://github.com/{{ .github }}" target="_blank">
+						{{ .github }}
+					</a>
+				</p>
+				{{ end }}
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</div>

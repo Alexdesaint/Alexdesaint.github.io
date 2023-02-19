@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+<!--
+<div class="submenu">
+	{{ $currentPage := . }}
+	{{ range .Site.Menus.cv }}
+	<a href="{{ .URL }}" class="{{ if $currentPage.HasMenuCurrent "cv" . }}active{{ end }}">{{ .Name }}</a>
+	{{ end }}
+</div>
+-->
+{{ partial "cv.html" .Params }}
+{{ if .Content }}<div class="page">
+	{{ .Content }}
+</div>{{ end }}
+{{ partial "footer.html" . }}

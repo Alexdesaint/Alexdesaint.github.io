@@ -1,0 +1,32 @@
+baseURL = "/"
+languageCode = "en-us"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+title = "Alexandre de Saint Blanquat"
+sectionPagesMenu = "main"
+# publishDir = "../alexdesaint.github.io/"
+
+[params]
+  name = "Alexandre de Saint Blanquat"
+  mail = "alexandredlsb@gmail.com"
+  phone = "(+33)7 83 89 52 43"
+  github = "alexdesaint"
+
+[permalinks]
+  blog = "/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Curriculum Vitae"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+#  [[menu.cv]]
+#    name = "English"
+#    url = "/cven/"
+#  [[menu.cv]]
+#    name = "Français"
+#    url = "/cvfr/"
+

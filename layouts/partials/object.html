@@ -1,0 +1,57 @@
+<div class="object">
+	<div class="objectLeft space-between">
+		{{ range .left }}<p style="text-align: right;">{{ . | markdownify }}</p>{{ end }}
+	</div>
+	<div class="objectRight">
+		{{ if or (.name) (.place) (.github) }}
+		<div class="space-between-row">
+			{{ if .name }}
+			<h4 class="infoPersoItem">{{ .name }}</h4>
+			{{ end }}
+			{{ if .place }}
+			<h6 class="infoPersoItem">
+				<!-- <i class="fas fa-map-marker-alt"></i> -->
+				{{ .place }}
+			</h6>
+			{{ end }}
+			{{ if .github }}
+			<p class="infoPersoItem">
+				<!-- <i class="fab fa-github"></i> -->
+				<a href="https://github.com/{{ .github }}" target="_blank">
+					{{ .github }}
+				</a>
+			</p>
+			{{ end }}
+		</div>
+		{{ end }}
+		{{ if .location }}<h5>{{ .location }}</h5>{{ end }}
+		{{ if or (.date) (.title) }}
+		<div class="infoPerso">
+			{{ if .date }}
+			<p class="infoPersoItem">
+				<!-- <i class="far fa-calendar-alt"></i> -->
+				{{ .date }}
+			</p>
+			{{ end }}
+			{{ if .title }}
+			<p class="infoPersoItem">
+				<!-- <i class="far fa-calendar-alt"></i> -->
+				{{ .title }}
+			</p>
+			{{ end }}
+		</div>
+		{{ end }}
+		{{ if .text }}{{ range .text }}<p style="padding-top: 3pt;">{{ . | markdownify }}</p>{{ end }}{{ end }}
+		{{ if .subObjects }}
+		<div class="indent">
+			{{ range .subObjects }}{{ partial "object.html" . }}{{ end }}
+		</div>
+		{{ end }}
+		{{ if .tags }}
+		{{ $first := index .tags 0 }}
+		<div>{{ range .tags }}
+			<p class="tag">{{ . }}</p>{{ end }}
+		</div>
+		{{ end }}
+	</div>
+</div>

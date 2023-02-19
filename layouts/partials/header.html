@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{{ $style := resources.Get "scss/main.scss" | resources.ToCSS | resources.Minify }}
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans&family=Fira+Sans+Condensed&family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href={{ $style.Permalink }}>
+		<script defer src="/all.min.js"></script>
+		<title>{{ .Title }}</title>
+	</head>
+	<body>
+		<!--<header for="themeCheckbox">
+			<div class="menu">
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.main }}
+				<a href="{{ .URL }}" {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="active" {{ end }}>{{ .Name }}</a>
+				{{ end }}
+			</div>
+		</header>-->

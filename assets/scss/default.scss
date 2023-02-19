@@ -1,0 +1,435 @@
+html {
+	//font-family: 'Fira Code', monospace;
+	font-family: 'Fira Sans', sans-serif;
+	//font-family: 'Fira Sans Condensed', sans-serif;
+	//font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	background-color: $Background;
+	border-color: $Foreground;
+}
+
+header {
+	width: 100%;
+}
+
+header a,
+header p {
+	padding: 5pt;
+	margin: 0;
+	text-decoration: none;
+}
+
+header a:hover {
+	background-color: $Comment;
+}
+
+header a.active {
+	background-color: $Foreground;
+	color: $Page;
+}
+
+header p {
+	margin-left: auto;
+	font-size: 12pt;
+}
+
+header a {
+	font-size: 14pt;
+	font-weight: bold;
+	margin-right: 6pt;
+}
+
+div.menu {
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+}
+
+div.menu,
+div.submenu {
+	width: 21cm;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// menu under top bar
+div.submenu {
+	justify-content: flex-end;
+}
+
+div.submenu a {
+	font-size: 12pt;
+	text-decoration: none;
+	padding: 0 3pt 3pt 3pt;
+	margin-left: 3pt;
+}
+
+div.submenu a:hover {
+	background-color: $Comment;
+	color: $Page;
+}
+
+div.submenu a.active {
+	background-color: $Foreground;
+	color: $Page;
+}
+
+figure {
+	margin: 0 0 7.5pt 0;
+}
+
+blockquote {
+	margin: 0 0 7.5pt 0;
+	padding: 0 0 0 7.5pt;
+	border-left: 1pt solid;
+}
+
+// la couleur du text selectionné
+::selection,
+::-moz-selection {
+	background: $Selection;
+}
+
+.page {
+	background-color: $Page;
+	width: 180mm;
+	height: 267mm;
+	padding: 15mm;
+	margin: 10mm;
+	box-shadow: -5mm 5mm 10mm rgba(0, 0, 0, 0.2);
+}
+
+.cv {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.marginSTop {
+	margin-top: 3pt;
+}
+
+.marginMBottom {
+	margin-bottom: 7.5pt;
+}
+
+.column {
+	width: 47.5%;
+}
+
+img {
+	//padding: 0.5cm;
+	width: 100%;
+}
+
+img.profile {
+	height: 3.5cm;
+	width: 3.5cm;
+	margin-right: 5pt;
+	padding: 0;
+	//border-radius: 50%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+	color: $Foreground;
+	margin: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10.5pt;
+	// line-height: 1.4;
+	margin-bottom: 7.5pt;
+}
+
+h1 {
+	font-size: 24pt;
+	line-height: 26pt;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 14pt;
+	// line-height: 18pt;
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 12pt;
+	// line-height: 13pt;
+}
+
+h5 {
+	color: $Color1;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-style: italic;
+}
+
+h6 {
+	font-family: 'Fira Code', monospace;
+	font-size: 9pt;
+}
+
+p {
+	text-align: justify;
+	margin: 0;
+}
+
+figure p {
+	text-align: right;
+
+}
+
+a {
+	text-decoration: underline;
+	color: inherit;
+	margin: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	margin-bottom: inherit;
+}
+
+ul {
+	padding-left: 18pt;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 0;
+}
+
+.cv {
+	h2 {
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	h3 {
+		color: $Color1;
+	}
+
+	h4 {
+		font-weight: bold;
+		font-size: 10.5pt;
+		margin: 7.5pt 0 0 0;
+	}
+
+	h5 {
+		margin: 0;
+	}
+
+	p {
+		// line-height: 12pt;
+		margin: 0;
+	}
+}
+
+.page div .skillBox,
+.page div .infoPersoItem {
+	margin: 0;
+}
+
+.object {
+	display: flex;
+}
+
+.objectRight,
+.objectLeft {
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+.objectRight {
+	flex: 12;
+}
+
+.objectLeft {
+	flex: 1;
+	padding-right: 3pt;
+	border-right: 1pt solid $Foreground;
+	margin-right: 3pt;
+	align-items: flex-end;
+}
+
+.core {
+	flex: 1;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+.main {
+	flex: 60;
+	margin-right: 7.5pt;
+}
+
+.side {
+	flex: 40;
+}
+
+.space-between,
+.space-between-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.space-between {
+	flex-direction: column;
+}
+
+.leftLine {
+	border-left: 1pt solid;
+}
+
+.subObject {
+	padding-left: 0.5cm;
+}
+
+.indent {
+	margin-left: 10pt;
+}
+
+.infoPersoItem svg {
+	color: $Foreground;
+	margin: 1mm;
+	height: 10.5pt;
+	width: 10.5pt;
+}
+
+.side h4 {
+	text-align: center;
+
+}
+
+p.tag {
+	padding: 2pt;
+	display: inline-block;
+	border: 1pt solid;
+	font-family: 'Fira Code', monospace;
+	font-size: 9pt;
+}
+
+// the kill rating *****
+.skillBox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skillBox p {
+	font-size: 10pt;
+}
+
+@page {
+	margin: 1.5cm 1.5cm 0 1.5cm;
+}
+
+@media print {
+
+	.cv h2,
+	.cv h4 {
+		margin: 0;
+	}
+
+	header,
+	div.submenu {
+		display: none;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	body {
+		display: block;
+	}
+
+	div.page {
+		page-break-after: always;
+		width: auto;
+		height: 96vh;
+		margin: 0;
+		padding: 0;
+		box-shadow: none;
+	}
+}
+
+@media screen and (min-width: 21cm) {
+	.cv {
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5 {
+			margin: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 23cm) {
+	.page {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 21cm) {
+
+	header,
+	.page {
+		margin: 0;
+	}
+
+	.page,
+	div.menu,
+	div.submenu {
+		width: 100%;
+		height: 100%;
+		box-shadow: none;
+	}
+
+	img {
+		margin-left: -15mm;
+		margin-right: -15mm;
+		width: 100vw;
+	}
+
+	img.profile {
+		display: block;
+		margin: 0;
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.main,
+	.side,
+	.column {
+		width: 100%;
+	}
+}
