@@ -7,7 +7,6 @@ html {
 
 body {
 	margin: 0;
-	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	align-content: flex-start;
@@ -103,7 +102,7 @@ blockquote {
 	width: 180mm;
 	height: 267mm;
 	padding: 15mm;
-	margin: 10mm;
+	margin: auto;
 	box-shadow: -5mm 5mm 10mm rgba(0, 0, 0, 0.2);
 }
 
@@ -331,6 +330,7 @@ p.tag {
 	border: 1pt solid;
 	font-family: 'Fira Code', monospace;
 	font-size: 9pt;
+	margin-right: 2pt;
 }
 
 // the kill rating *****
@@ -371,65 +371,7 @@ p.tag {
 		page-break-after: always;
 		width: auto;
 		height: 96vh;
-		margin: 0;
 		padding: 0;
 		box-shadow: none;
-	}
-}
-
-@media screen and (min-width: 21cm) {
-	.cv {
-
-		h1,
-		h2,
-		h3,
-		h4,
-		h5 {
-			margin: 0;
-		}
-	}
-}
-
-@media screen and (max-width: 23cm) {
-	.page {
-		margin-right: 0;
-		margin-left: 0;
-	}
-}
-
-@media screen and (max-width: 21cm) {
-
-	header,
-	.page {
-		margin: 0;
-	}
-
-	.page,
-	div.menu,
-	div.submenu {
-		width: 100%;
-		height: 100%;
-		box-shadow: none;
-	}
-
-	img {
-		margin-left: -15mm;
-		margin-right: -15mm;
-		width: 100vw;
-	}
-
-	img.profile {
-		display: block;
-		margin: 0;
-		width: auto;
-		height: auto;
-		max-width: 100%;
-		max-height: 100%;
-	}
-
-	.main,
-	.side,
-	.column {
-		width: 100%;
 	}
 }

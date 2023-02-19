@@ -49,9 +49,7 @@
 		{{ end }}
 		{{ if .tags }}
 		{{ $first := index .tags 0 }}
-		<div>{{ range .tags }}
-			<p class="tag">{{ . }}</p>{{ end }}
-		</div>
+		<div>{{ range .tags }}<p class="tag">{{ . }}</p>{{ end }}</div>
 		{{ end }}
 	</div>
 </div>
