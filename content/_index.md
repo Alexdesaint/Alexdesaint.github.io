@@ -4,21 +4,21 @@ type: "resume"
 name: Alexandre de Saint Blanquat
 mail: alexandredlsb@gmail.com
 phone: +33 7 83 89 52 43
-location: Ansterdam, NL
+location: Amsterdam, NL
 github: alexdesaint
 accroche: Low Latency Software Developer
 intro: >-
-  Strong expertise in designing low latency systems, I am the main pricing framework developer of a high frequency trading company.
-  From a robotic software engineering, I work with specialist of other disciplines to bring most theoretical aspect to fast and reliable solutions.
-  Open for challenges.
+  With strong expertise in designing low latency systems, I am the main pricing framework developer of a high frequency trading company.
+  From a master of robotic software engineering, I work with specialists in other disciplines to bring theoretical aspects to fast and reliable solutions.
+  Open to new challenges.
 experience:
 - name: Software Developer
   place: Amsterdam, NL
   location: All Options International
   text:
-  - All Options is a derivatives trading company specialized in trading options. I am part of a team of ten software developers dedicated to assure the continuity of the trading platform, implementing new features, and expending to new products.
+  - All Options is a derivatives trading company specialized in trading options. I am part of a team of ten software developers dedicated to assure the continuity of the trading platform, implementing new features, and expanding to new products.
   - With traders close collaboration, I have built applications covering low latency trading, portfolio management and options hedging. 
-  - I am now the main developer on the pricing framework aiming to expand to US products, improve performances for european liquid products and replace the legacy code.
+  - I am now the main developer on the pricing framework aiming to expand to US products, improve performances for European liquid products and replace the legacy code.
   left:
   - Now
   - Mar 2021
@@ -33,8 +33,8 @@ experience:
   # location: Safran Electrical & Power, Interconnection Systems Eurasia, Design Office
   text:
   - >-
-   Experimented with *Hololens 2* how augmented reality glasses can be used in the plane cabling process. 
-   Implementing cable harness visualisation, synchronisation between *Hololens*, and new augmented reality interactions.
+   Experimented with *Hololens 2* on how augmented reality glasses can be used in the plane cabling process. 
+   Implementing cable harness visualization, synchronization between *Hololens*, and new augmented reality interactions.
   tags:
   - 3D Graphics
   - Project Management
@@ -75,25 +75,27 @@ skills:
   text:
   - Experienced in designing applications with low latency and high reliability requirements.
   - I have a methodic approach and always abstract problems into a model (state machine, grafcet, block diagram...).
-  - Competent with asynchrounous programming, parallel computing, networking and would be interested in learning GPU-accelerated computing.
+  - Competent with asynchronous programming, parallel computing, networking and would be interested in learning GPU-accelerated computing.
 - tag: C++
   text:
   - >-
-    My most proficient programming language.
-    Often coupled with higher level language like Python, Go or Javascript.
+    The programming language in which I am most proficient with C++17 standard, boost and the LLVM ecosystem.
+    I am often complementing non low latency parts with higher level languages like Python, Go or Javascript.
 - tag: Linux
   text:
   - Daily Linux user, it's my working environment.
 - tag: 3D Graphics
   text:
   - Working on my engine, good understanding of *OpenGL* or *Unity*.
-  github: alexdesaint/BlobEngine
+  # github: alexdesaint/BlobEngine
 - tag: Project Management
   text:
   - I manage projects through all different stages, from requirement to release, support and handover.
-  - Team player, I enjoy popularizing the technical parts and collaboration with specialist of different fields.
+  - Team player, I enjoy popularizing the technical parts and collaborating with specialist in different fields.
 - tag: About me
   text:
-  - I did my hight school in Cambodia and my studies in Toulouse. I like to take pictures, skiing and having a beers for the after work.
+  - >-
+    I attended high school in Cambodia and university in Toulouse.
+    I like taking pictures, skiing and having a beer after work.
   - Native French, fluent in English.
 ---
