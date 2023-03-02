@@ -4,90 +4,86 @@ type: "resume"
 name: Alexandre de Saint Blanquat
 mail: alexandredlsb@gmail.com
 phone: +33 7 83 89 52 43
-location: Amsterdam, NL
+location: Amsterdam
 github: alexdesaint
 accroche: Low Latency Software Developer
 intro: >-
   With strong expertise in designing low latency systems, I am the main pricing framework developer of a high frequency trading company.
   From a master of robotic software engineering, I work with specialists in other disciplines to bring theoretical aspects to fast and reliable solutions.
-  Open to new challenges.
+  Open to new challenges in the United States.
 experience:
 - name: Software Developer
-  place: Amsterdam, NL
-  location: All Options International
+  place:
+  location: All Options International, Amsterdam, Netherlands
   text:
   - All Options is a derivatives trading company specialized in trading options. I am part of a team of ten software developers dedicated to assure the continuity of the trading platform, implementing new features, and expanding to new products.
-  - With traders close collaboration, I have built applications covering low latency trading, portfolio management and options hedging. 
-  - I am now the main developer on the pricing framework aiming to expand to US products, improve performances for European liquid products and replace the legacy code.
+  - With traders close collaboration, I have built applications covering low latency trading, portfolio management and options hedging. I am now the main developer on the pricing framework aiming to expand to US products, improve performances for European liquid products and replace legacy code.
   left:
   - Now
   - Mar 2021
-  tags:
-  - Low latency
-  - Linux
-  - C++
-  - Project Management
+  # tags:
+  # - Low latency
+  # - Linux
+  # - C++
+  # - Project Management
 - name: Software Developer Apprentice
-  place: Blagnac, FR
-  location: Safran Electrical & Power, Interconnection Systems Eurasia
-  # location: Safran Electrical & Power, Interconnection Systems Eurasia, Design Office
+  # place: Blagnac, FR
+  location: Safran Electrical & Power, Interconnection Systems Eurasia, Design Office, Blagnac, France
+  # location: Safran Electrical & Power, Interconnection Systems Eurasia
   text:
   - >-
    Experimented with *Hololens 2* on how augmented reality glasses can be used in the plane cabling process. 
    Implementing cable harness visualization, synchronization between *Hololens*, and new augmented reality interactions.
-  tags:
-  - 3D Graphics
-  - Project Management
+  # tags:
+  # - 3D Graphics
+  # - Low latency
+  # - Project Management
   left:
   - Aug 2020
   - Sep 2019
 - name: Robotic Software Engineer Intern
-  place: Zagreb, CR
-  location: Laboratory for Autonomous Systems and Mobile Robotics
+  # place: Zagreb, CR
+  location: LAMoR, Zagreb, Croatia
   text:
-  - Integrated laser scanners to a warehouse robot.
-  # - Integrated laser scanners, safety controllers and emergency stop to a warehouse robot. Made engines controller and a ROS package to decode sensor data stream.
-  tags:
-  - Low latency
-  - Linux
-  - C++
+  # - Integrated laser scanners to a warehouse robot.
+  - Integrated laser scanners, safety controllers and emergency stop to a warehouse robot. Made a ROS package to decode sensor data stream.
+  # tags:
+  # - Low latency
+  # - Linux
+  # - C++
   left:
   - Jul 2019
   - Mar 2019
 education:
-- name: Engineer Degree (Master)
-  place: Toulouse, FR
-  location: UPSSITECH, Université Paul Sabatier
+- name: Robotic and Interactive Systems Engineering Degree
+  # place: 
+  location: UPSSITECH, Université Paul Sabatier, Toulouse, France
   left:
   - 2020
   text:
-  - Robotic and Interactive Systems
   - ERASMUS at the University of Zagreb, Faculty of Electrical Engineering and Computing
-- name: Technical Degree
-  place: Toulouse, FR
-  location: IUT A, Université Paul Sabatier
+- name: Electrical and Industrial Computer Sciences Degree
+  # place: Toulouse, FR
+  location: IUT A, Université Paul Sabatier, Toulouse, France
   left:
   - 2017
-  text:
-  - Electrical and Industrial Computer Sciences
 skills:
 - tag: Low latency
   text:
-  - Experienced in designing applications with low latency and high reliability requirements.
-  - I have a methodic approach and always abstract problems into a model (state machine, grafcet, block diagram...).
-  - Competent with asynchronous programming, parallel computing, networking and would be interested in learning GPU-accelerated computing.
+  - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model (state machine, block diagram...).
+  - Competent with asynchronous programming, parallel computing and networking. I would be interested in learning GPU-accelerated computing as I have learned usage of *OpenGL* and *BGFX*.
 - tag: C++
   text:
   - >-
-    The programming language in which I am most proficient with C++17 standard, boost and the LLVM ecosystem.
-    I am often complementing non low latency parts with higher level languages like Python, Go or Javascript.
+    Proficient with C++ 17, boost and the *LLVM* ecosystem. Now moving to C++ 23.
+    I am often complementing non low latency parts with Python, Go or Javascript for math, server or webapp.
 - tag: Linux
   text:
   - Daily Linux user, it's my working environment.
-- tag: 3D Graphics
-  text:
-  - Working on my engine, good understanding of *OpenGL* or *Unity*.
-  # github: alexdesaint/BlobEngine
+# - tag: 3D Graphics
+#   text:
+#   - Working on my engine, good understanding of *OpenGL*, *BGFX* or *Unity*.
+#   github: alexdesaint/BlobEngine
 - tag: Project Management
   text:
   - I manage projects through all different stages, from requirement to release, support and handover.
