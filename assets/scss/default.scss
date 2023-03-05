@@ -103,6 +103,7 @@ blockquote {
 	height: 267mm;
 	padding: 15mm;
 	margin: auto;
+	margin: auto auto 10pt auto;
 	box-shadow: -5mm 5mm 10mm rgba(0, 0, 0, 0.2);
 }
 
@@ -188,7 +189,7 @@ h6 {
 
 p {
 	text-align: justify;
-	margin: 0;
+	margin-bottom: 1em;
 }
 
 figure p {
