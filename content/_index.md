@@ -33,7 +33,7 @@ experience:
 - name: Robotic Software Engineer Intern
   location: LAMoR, Zagreb, Croatia
   text:
-  - Integrated laser scanners, safety controllers and emergency stop to a warehouse robot. Made a ROS package to decode sensor data stream.
+  - Integrated laser scanners, safety controllers and emergency stop to a warehouse robot. Made a **C++ ROS** package to decode sensor data stream.
   left:
   - Jul 2019
   - Mar 2019
