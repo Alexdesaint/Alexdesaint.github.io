@@ -6,11 +6,10 @@ mail: alexandredlsb@gmail.com
 phone: +33 7 83 89 52 43
 location: Amsterdam
 github: alexdesaint
-accroche: Low Latency Software Developer
+accroche: Low Latency C++ Software Developer open to new challenges in the US
 intro: >-
-  With strong expertise in designing low latency systems, I am the main pricing framework developer of a high frequency trading company.
+  With strong expertise in designing systems, I am the main pricing framework developer of a high frequency trading company.
   From a master of robotic software engineering, I work with specialists in other disciplines to bring theoretical aspects to fast and reliable solutions.
-  Open to new challenges in the United States.
 experience:
 - name: Software Developer
   place:
@@ -52,8 +51,8 @@ education:
 skills:
 - tag: Low latency
   text:
-  - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model (state machine, Grafcet, block diagram...). Competent with asynchronous programming, parallel computing and networking.
-  - Proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem and now moving to **C++ 23**. Using **Linux** as my working environnement, I am complementing non low latency with **Python**, **Go** or **Javascript** for math, server or webapp.
+  - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model (state machine, Grafcet, block diagram...). Expertise in asynchronous programming, parallel computing and networking.
+  - Proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem and now moving to **C++ 23**. Using **Linux** as my working environnement, together with **Python**, **Go** or **Javascript** for maths, servers or webapps.
   - I had **VHDL** as part of my university teaching and learned **OpenGL** and **BGFX** on my free time. Would be interested in working with GPU-accelerated computing or **FPGA**.
 - tag: Project Management
   text:
