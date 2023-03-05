@@ -17,7 +17,7 @@ experience:
   location: All Options International, Amsterdam, Netherlands
   text:
   - All Options is a derivatives trading company specialized in trading options. I am part of a team of ten software developers dedicated to assure the continuity of the trading platform, implementing new features, and expanding to new products.
-  - With traders close collaboration, I have built applications covering low latency trading, portfolio management and options hedging. I am now the main developer on the pricing framework aiming to expand to US products, improve performances for European liquid products and replace legacy code.
+  - With trader's close collaboration, I have built **C++** applications covering low latency trading, portfolio management and options hedging. I am now the main developer on the pricing framework aiming to expand to US products, improve performances for European products and replace legacy code.
   left:
   - Now
   - Mar 2021
@@ -53,8 +53,8 @@ skills:
 - tag: Low latency
   text:
   - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model (state machine, Grafcet, block diagram...). Competent with asynchronous programming, parallel computing and networking.
-  - Proficient with *C++ 17*, boost, the *LLVM* ecosystem and now moving to *C++ 23*. With Linux as my working environnement, I am complementing non low latency with Python, Go or Javascript for math, server or webapp.
-  - I had *VHDL* as part of my university teaching and learned *OpenGL* and *BGFX* on my free time. Would be interested in working with GPU-accelerated computing or FPGA.
+  - Proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem and now moving to **C++ 23**. Using **Linux** as my working environnement, I am complementing non low latency with **Python**, **Go** or **Javascript** for math, server or webapp.
+  - I had **VHDL** as part of my university teaching and learned **OpenGL** and **BGFX** on my free time. Would be interested in working with GPU-accelerated computing or **FPGA**.
 - tag: Project Management
   text:
   - I manage projects through all different stages, from requirement to release, support and handover.

@@ -277,7 +277,7 @@ li {
 
 .main {
 	flex: 60;
-	margin-right: 7.5pt;
+	margin-right: 10pt;
 }
 
 .side {
@@ -319,12 +319,12 @@ li {
 }
 
 p.tag {
-	padding: 1pt;
+	padding: 0pt 2pt 0pt 2pt;
 	display: inline-block;
 	border: 1pt solid;
 	font-family: 'Fira Code', monospace;
 	font-size: 11pt;
-	margin-right: 2pt;
+	// margin-right: 2pt;
 }
 
 // the kill rating *****
