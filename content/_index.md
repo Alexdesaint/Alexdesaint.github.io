@@ -17,7 +17,7 @@ experience:
   location: All Options International, Amsterdam, Netherlands
   text:
   - All Options is a derivatives trading company specialized in trading options. I am part of a team of ten software developers dedicated to assure the continuity of the trading platform, implementing new features, and expanding to new products.
-  - With trader's close collaboration, I have built **C++** applications covering low latency trading, portfolio management and options hedging. I am now the main developer on the pricing framework aiming to expand to US products, improve performances for European products and replace legacy code.
+  - With the close collaboration of traders, I have built **C++** applications covering low latency trading, portfolio management and options hedging. I am now the main developer on the pricing framework aiming to expand to US products, improve performances for European products and replace legacy code.
   left:
   - Now
   - Mar 2021
