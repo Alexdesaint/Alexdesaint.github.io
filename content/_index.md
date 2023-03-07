@@ -2,10 +2,6 @@
 title: "Curriculum Vitae"
 type: "resume"
 name: Alexandre de Saint Blanquat
-mail: alexandredlsb@gmail.com
-phone: +33 7 83 89 52 43
-location: Amsterdam
-github: alexdesaint
 accroche: Low Latency C++ Software Developer open to new challenges in the US
 intro: >-
   With strong expertise in designing systems, I am the main pricing framework developer of a high frequency trading company.
@@ -13,7 +9,7 @@ intro: >-
 experience:
 - name: Software Developer
   place:
-  location: All Options International, Amsterdam, Netherlands
+  location: "**All Options International**, Amsterdam, Netherlands"
   text:
   - All Options is a derivatives trading company specialized in trading options. I am part of a team of ten software developers dedicated to assure the continuity of the trading platform, implementing new features, and expanding to new products.
   - With the close collaboration of traders, I have built **C++** applications covering low latency trading, portfolio management and options hedging. I am now the main developer on the pricing framework aiming to expand to US products, improve performances for European products and replace legacy code.
@@ -21,7 +17,7 @@ experience:
   - Now
   - Mar 2021
 - name: Software Developer Apprentice
-  location: Safran Electrical & Power, Interconnection Systems Eurasia, Design Office, Blagnac, France
+  location: "**Safran Electrical & Power**, Interconnection Systems Eurasia, Design Office, Blagnac, France"
   text:
   - >-
    Experimented with *Hololens 2* on how augmented reality glasses can be used in the plane cabling process. 
@@ -30,7 +26,7 @@ experience:
   - Aug 2020
   - Sep 2019
 - name: Robotic Software Engineer Intern
-  location: LAMoR, Zagreb, Croatia
+  location: "**LAMoR**, Zagreb, Croatia"
   text:
   - Integrated laser scanners, safety controllers and emergency stop to a warehouse robot. Made a **C++ ROS** package to decode sensor data stream.
   left:
@@ -39,32 +35,33 @@ experience:
 education:
 - name: Robotic and Interactive Systems Engineering Degree
   # place: 
-  location: UPSSITECH, Université Paul Sabatier, Toulouse, France
+  location: "**UPSSITECH**, Université Paul Sabatier, Toulouse, France"
   left:
   - 2020
   text:
   - ERASMUS at the University of Zagreb, Faculty of Electrical Engineering and Computing
 - name: Electrical and Industrial Computer Sciences Degree
-  location: IUT A, Université Paul Sabatier, Toulouse, France
+  location: "**IUT A**, Université Paul Sabatier, Toulouse, France"
   left:
   - 2017
 skills:
 - tag: Low latency
   text:
-  - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model (state machine, Grafcet, block diagram...). Expertise in asynchronous programming, parallel computing and networking.
-  - Proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem and now moving to **C++ 23**. Using **Linux** as my working environnement, together with **Python**, **Go** or **Javascript** for maths, servers or webapps.
-  - I had **VHDL** as part of my university teaching and learned **OpenGL** and **BGFX** on my free time. Would be interested in working with GPU-accelerated computing or **FPGA**.
+  - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model (state machine, Grafcet, dependency graph...).
+  - Proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem and now moving to **C++ 23**. Using **Linux** as my working environnement and taking advantage of other languages such as **Python**, **Go** or **Javascript**.
+  - I had **VHDL** as part of my university teaching and learned **OpenGL** on my free time. Would be interested in working with GPU-accelerated computing or **FPGA**.
 - tag: Project Management
   text:
-  - I manage projects through all different stages, from requirement to release, support and handover.
-  - I put a lot importance into design and like to follow other projects, review them and give a constructive feedback.
-  - Team player, I enjoy popularizing the technical parts and collaborating with specialist in different fields.
+  - I manage projects through all different stages, from requirement to release, support and handover. I like to follow other projects, review the code and give a constructive feedback. I see myself as a team player and a problem solver. I put a lot importance into design, I like to take the needed time to make scalable solutions.
+  - I enjoy working with specialist of different fields to learn and understand what my collaborators are doing.
 - tag: About me
   text:
   - >-
-    I attended high school in Cambodia and university in Toulouse.
+    I attended high school in Cambodia, university in Toulouse and now living in Amsterdam.
     I like taking pictures, skiing and having a beer after work.
   - Native French, fluent in English.
+  - "Mail: alexandredlsb@gmail.com"
+  - "Phone: +33 7 83 89 52 43"
 ---
 Dear Hiring Manager,
 

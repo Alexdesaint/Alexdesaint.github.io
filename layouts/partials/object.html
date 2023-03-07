@@ -24,7 +24,7 @@
 			{{ end }}
 		</div>
 		{{ end }}
-		{{ if .location }}<h5>{{ .location }}</h5>{{ end }}
+		{{ if .location }}<h5>{{ .location | markdownify }}</h5>{{ end }}
 		{{ if or (.date) (.title) }}
 		<div class="infoPerso">
 			{{ if .date }}
