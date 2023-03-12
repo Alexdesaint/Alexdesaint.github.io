@@ -29,7 +29,7 @@ experience:
   location: "**LAMoR**, Zagreb, Croatia"
   text:
   - Integrated laser scanners, safety controllers and emergency stop to a warehouse robot. Made a **C++ ROS** package to decode sensor data stream.
-  - Intership during my ERASMUS semester at the University of Zagreb, Faculty of Electrical Engineering and Computing.
+  - Internship during my ERASMUS semester at the University of Zagreb, Faculty of Electrical Engineering and Computing.
   left:
   - Jul 2019
   - Mar 2019
