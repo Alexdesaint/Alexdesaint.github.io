@@ -9,7 +9,7 @@ intro: >-
 experience:
 - name: Software Developer
   place:
-  location: "**All Options International**, Amsterdam, Netherlands"
+  location: "**All Options International**, Amsterdam, The Netherlands"
   text:
   - All Options is a derivatives trading company specialized in trading options. I am part of a team of ten software developers dedicated to ensure the continuity of the trading platform, implementing new features, and expanding to new products.
   - In close collaboration with traders, I have built **C++** applications covering low latency trading, portfolio management and options hedging. I am the main developer on the pricing framework, aiming to improve performances for European products, replace legacy code and expand to the US market.
@@ -29,17 +29,17 @@ experience:
   location: "**LAMoR**, Zagreb, Croatia"
   text:
   - Integrated laser scanners, safety controllers and emergency stop to a warehouse robot. Made a **C++ ROS** package to decode sensor data stream.
-  - Intership during my ERASMUS semerster at the University of Zagreb, Faculty of Electrical Engineering and Computing.
+  - Intership during my ERASMUS semester at the University of Zagreb, Faculty of Electrical Engineering and Computing.
   left:
   - Jul 2019
   - Mar 2019
 education:
-- name: Robotic and Interactive Systems Engineering Master Degree
+- name: Robotic and Interactive Systems Engineering Master's Degree
   # place: 
   location: "**UPSSITECH**, Université Paul Sabatier, Toulouse, France"
   left:
   - 2020
-- name: Electrical and Industrial Computer Sciences Professional Bachelor Degree
+- name: Electrical and Industrial Computer Sciences Professional Bachelor's Degree
   location: "**IUT A**, Université Paul Sabatier, Toulouse, France"
   left:
   - 2017
@@ -52,7 +52,7 @@ skills:
 - tag: Project Management
   text:
   - I manage projects through all different stages, from requirement to release, support and handover. I supervise the work of my juniors colleagues. I like to review the design and the code for other projects and give a constructive feedback.
-  - I see myself as a team player and a problem solver. I enjoy focussing on design in order to build scalable solutions.
+  - I see myself as a team player and a problem solver. I enjoy focusing on design in order to build scalable solutions.
 - tag: About me
   text:
   - >-
