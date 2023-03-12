@@ -46,11 +46,11 @@ skills:
 - tag: Low latency
   text:
   - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model (state machine, Grafcet, dependency graph...).
-  - Proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem and now moving to **C++ 23**. Using **Linux** as my working environnement and taking advantage of other languages such as **Python**, **Go** or **Javascript**.
+  - Proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem and now moving to **C++ 23**. Using **Linux** as my working environment and taking advantage of other languages such as **Python**, **Go** or **Javascript**.
   - I had training with **VHDL** and learned **OpenGL** on my free time. Would be interested in working with GPU-accelerated computing or **FPGA**.
 - tag: Project Management
   text:
-  - I manage projects through all different stages, from requirement to release, support and handover. I supervise the work of my juniors colleagues. I like to review the design and the code for other projects and give a constructive feedback.
+  - I manage projects through all different stages, from requirement to release, support and handover. I supervise the work of my junior colleagues. I like to review the design and the code for other projects and give a constructive feedback.
   - I see myself as a team player and a problem solver. I enjoy focusing on design in order to build scalable solutions.
 - tag: About me
   text:
