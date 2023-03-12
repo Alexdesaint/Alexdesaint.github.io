@@ -25,13 +25,13 @@
 				{{ end }}
 				{{ if .text }}
 				{{ range .text }}
-				<p style="padding: 2pt 0 0 2pt;border-left: 1pt solid;">
+				<p style="padding: 2pt 0 0 2pt;border-left: 1px solid;">
 					{{ . | markdownify }}
 				</p>
 				{{ end }}
 				{{ end }}
 				{{ if .github }}
-				<p style="padding: 2pt 0 0 2pt;border-left: 1pt solid;">
+				<p style="padding: 2pt 0 0 2pt;border-left: 1px solid;">
 					<i class="fab fa-github"></i>
 					<a href="https://github.com/{{ .github }}" target="_blank">
 						{{ .github }}
