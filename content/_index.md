@@ -63,7 +63,7 @@ skills:
 ---
 Dear Hiring Manager,
 
-I am excited to apply for the C++ job opportunity in your company as a software developer for designing systematic trading systems. As a skilled developer with an international background and a strong expertise in designing low latency systems, I believe that my experience and skills would be an excellent fit for your company's needs.
+I am excited to apply for the C++ job opportunity in your company. As a skilled developer with an international background and a strong expertise in designing low latency systems, I believe that my experience and skills would be an excellent fit for your company's needs.
 
 I have extensive experience in designing and implementing high-performance software solutions for the financial sector in Amsterdam, specifically in the field of high-frequency options trading. I work as the main pricing framework developer for a derivatives trading company, where I have been responsible for designing and implementing low latency systems that are capable of processing large volumes of data in real-time.
 
