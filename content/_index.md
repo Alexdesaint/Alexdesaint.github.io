@@ -68,7 +68,7 @@ I am excited to apply for the C++ job opportunity in your company as a software 
 
 I have extensive experience in designing and implementing high-performance software solutions for the financial sector in Amsterdam, specifically in the field of high-frequency options trading. I work as the main pricing framework developer for a derivatives trading company, where I have been responsible for designing and implementing low latency systems that are capable of processing large volumes of data in real-time.
 
-I hold a Master degree in robotic software engineering from one of the major robotic engineering university in France, which has provided me with a solid understanding of the theoretical aspects of software development. I have collaborated with specialists from other disciplines to develop fast and reliable solutions that meet the needs of our clients. My experience in designing and implementing complex applications using C++ would make me an ideal candidate for the role.
+I hold a Master's degree in robotic software engineering from one of the major robotic engineering university in France, which has provided me with a solid understanding of the theoretical aspects of software development. I have collaborated with specialists from other disciplines to develop fast and reliable solutions that meet the needs of our clients. My experience in designing and implementing complex applications using C++ would make me an ideal candidate for the role.
 
 In addition to my technical skills, I am an excellent communicator and a team player. I understand the importance of collaboration and have worked with teams of developers, traders, and other stakeholders with various cultural and language backgrounds to ensure that our solutions meet the needs of traders.
 
