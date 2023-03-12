@@ -47,7 +47,7 @@ header a {
 
 div.menu {
 	border-bottom-style: solid;
-	border-bottom-width: 1pt;
+	border-bottom-width: 1px;
 }
 
 div.menu,
@@ -88,7 +88,7 @@ figure {
 blockquote {
 	margin: 0 0 7.5pt 0;
 	padding: 0 0 0 7.5pt;
-	border-left: 1pt solid;
+	border-left: 1px solid;
 }
 
 // la couleur du text selectionné
@@ -264,7 +264,7 @@ li {
 .objectLeft {
 	flex: 1;
 	padding-right: 3pt;
-	border-right: 1pt solid $Foreground;
+	border-right: 1px solid $Foreground;
 	margin-right: 3pt;
 	align-items: flex-end;
 }
@@ -296,7 +296,7 @@ li {
 }
 
 .leftLine {
-	border-left: 1pt solid;
+	border-left: 1px solid;
 }
 
 .subObject {
@@ -322,7 +322,7 @@ li {
 p.tag {
 	padding: 0pt 2pt 0pt 2pt;
 	display: inline-block;
-	border: 1pt solid;
+	border: 1px solid;
 	// font-family: 'Fira Code', monospace;
 	// font-size: 11pt;
 	// margin-right: 2pt;
