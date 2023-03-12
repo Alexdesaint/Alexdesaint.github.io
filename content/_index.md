@@ -45,7 +45,7 @@ education:
 skills:
 - tag: Low latency
   text:
-  - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model (state machine, Grafcet, dependency graph...).
+  - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model (state machine, Grafcet, dependency graph...) and optimize by profiling the code.
   - Proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem and now moving to **C++ 23**. Using **Linux** as my working environment and taking advantage of other languages such as **Python**, **Go** or **Javascript**.
   - I had training with **VHDL** and learned **OpenGL** on my free time. Would be interested in working with GPU-accelerated computing or **FPGA**.
 - tag: Project Management
