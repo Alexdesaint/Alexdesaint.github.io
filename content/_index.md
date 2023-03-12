@@ -35,7 +35,6 @@ experience:
   - Mar 2019
 education:
 - name: Robotic and Interactive Systems Engineering Master's Degree
-  # place: 
   location: "**UPSSITECH**, Université Paul Sabatier, Toulouse, France"
   left:
   - 2020
