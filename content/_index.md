@@ -63,15 +63,11 @@ skills:
 ---
 Dear Hiring Manager,
 
-I am excited to apply for the C++ job opportunity in your company. As a skilled developer with an international background and a strong expertise in designing low latency systems, I believe that my experience and skills would be an excellent fit for your company's needs.
+I am writing to express my strong interest in the C++ job opportunity in your market-making company in New York. As a C++ developer with expertise in designing low latency systems, I am excited about the possibility of joining a team that values innovation, creativity, and technical excellence.
 
-I have extensive experience in designing and implementing high-performance software solutions for the financial sector in Amsterdam, specifically in the field of high-frequency options trading. I work as the main pricing framework developer for a derivatives trading company, where I have been responsible for designing and implementing low latency systems that are capable of processing large volumes of data in real-time.
+I am currently living in Amsterdam, and I am highly motivated to move to New York to further my career. My expertise lies in developing robust systems capable of processing large volumes of data in real-time. I have successfully delivered two large project related to market making: a low latency trading strategy running in Euronext and Eurex and the company's to automatic portfolio management used to create trading strategies and for option's hedging. I am now working on the pricing framework after delivered results that have contributed to the growth and success of All Options.
 
-I hold a Master's degree in robotic software engineering from one of the major robotic engineering universities in France, which has provided me with a solid understanding of the theoretical aspects of software development. I have collaborated with specialists from other disciplines to develop fast and reliable solutions that meet the needs of our clients. My experience in designing and implementing complex applications using C++ would make me an ideal candidate for the role.
-
-In addition to my technical skills, I am an excellent communicator and a team player. I understand the importance of collaboration and have worked with teams of developers, traders, and other stakeholders with various cultural and language backgrounds to ensure that our solutions meet the needs of traders.
-
-As my partner will start a PHD in the US, I would like to relocate to New York and I am excited about the opportunity to work with your team. I am confident that my skills and experience would be a valuable asset to your company.
+As someone who has studied robotic software engineering, I understand the importance of designing robust and reliable systems that can operate under high-pressure and in unpredictable environments. I enjoy collaborated with specialists from other disciplines to learn and develop reliable solutions. In addition to my technical skills, I am an excellent communicator and a team player. I have worked with teams of developers, traders, quants, and other stakeholders with various cultural and language backgrounds to ensure that our solutions meet the user's needs.
 
 Thank you for considering my application.
 
