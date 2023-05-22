@@ -2,7 +2,7 @@
 title: "Curriculum Vitae"
 type: "resume"
 name: Alexandre de Saint Blanquat
-accroche: Low Latency C++ Software Developer open to new challenges in the US
+accroche: Low Latency C++ Software Developer
 intro: >-
   I am the main pricing framework developer for a high frequency trading company in Amsterdam, the Netherlands.
   With a Master's in robotic software engineering, I have expertise in designing systems and collaborating with specialists from other disciplines to bring fast and reliable solutions to traders.
