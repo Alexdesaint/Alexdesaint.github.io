@@ -7,7 +7,7 @@ intro: >-
   Lead Developer in a trading company, I guide projects, manages a team and maintain a good communication with others outside my department.
   I have expertise in designing and implementing **C++** applications in collaboration with traders to deliver fast and robust solutions to production.
   As part of All Options, we are working on renewing an infrastructure created more than 10 years ago.
-  Leading a team of four software developers, we are working in a real time pricing framework for low-latency trading applications and quantitative analysis using the Vola Dynamics library.
+  By leading a team of four software developers, we are working on a real time pricing framework for low-latency trading applications and quantitative analysis using the Vola Dynamics library.
 experience:
 - name: Pricing Team Lead
   place:
