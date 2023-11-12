@@ -103,7 +103,7 @@ blockquote {
 	height: 267mm;
 	padding: 15mm;
 	margin: auto;
-	margin: auto auto 10pt auto;
+	margin: auto auto 10.5pt auto;
 	box-shadow: -5mm 5mm 10mm rgba(0, 0, 0, 0.2);
 }
 
@@ -157,7 +157,7 @@ li {
 	margin: 0;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 11pt;
+	font-size: 10.5pt;
 }
 
 h1 {
@@ -227,7 +227,7 @@ li {
 
 	h4 {
 		font-weight: bold;
-		font-size: 11pt;
+		// font-size: 11pt;
 		margin: 7.5pt 0 0 0;
 	}
 
@@ -277,12 +277,12 @@ li {
 }
 
 .main {
-	flex: 55;
-	margin-right: 10pt;
+	flex: 65;
+	margin-right: 15pt;
 }
 
 .side {
-	flex: 45;
+	flex: 35;
 }
 
 .space-between,
@@ -304,7 +304,7 @@ li {
 }
 
 .indent {
-	margin-left: 10pt;
+	margin-left: 10.5pt;
 }
 
 .infoPersoItem svg {

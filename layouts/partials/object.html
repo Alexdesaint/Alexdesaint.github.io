@@ -41,7 +41,7 @@
 			{{ end }}
 		</div>
 		{{ end }}
-		{{ if .text }}{{ range .text }}<p style="padding-top: 3pt;">{{ . | markdownify }}</p>{{ end }}{{ end }}
+		{{ if .text }}{{ range .text }}<p style="padding-top: 5pt;">{{ . | markdownify }}</p>{{ end }}{{ end }}
 		{{ if .subObjects }}
 		<div class="indent">
 			{{ range .subObjects }}{{ partial "object.html" . }}{{ end }}

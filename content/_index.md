@@ -4,21 +4,19 @@ type: "resume"
 name: Alexandre de Saint Blanquat
 accroche: Pricing Team Lead for a High Frequency Market Maker in Amsterdam.
 intro: >-
-  Lead Developer in a trading company, I guide projects, manages a team and maintain a good communication with others outside my department.
-  I have expertise in designing and implementing **C++** applications in collaboration with traders to deliver fast and robust solutions to production.
-  As part of All Options, we are working on renewing an infrastructure created more than 10 years ago.
-  By leading a team of four software developers, we are working on a real time pricing framework for low-latency trading applications and quantitative analysis using the Vola Dynamics library.
+  Lead Developer in a trading company, I guide the real-time pricing projects, manages four developers and maintain a good communication with others outside my department.
+  I have expertise in designing and implementing **C++** applications used for low latency trading.
+  Proficient with **C++ 17**, **Linux**, **Python**, **Vola Dynamics**, **CMAKE**, **Boost**, **Redis**, **ScyllaDB** and **Tbricks**.
 experience:
 - name: Pricing Team Lead
   place:
   location: "**All Options International**, Amsterdam, The Netherlands"
   text:
-  - All Options is a derivatives trading company specialised in trading options.
-  - I am part of the technology department dedicated to develop new technologies and ensure the continuity of the trading platform.
-  - Since I joined, I am building **C++** applications covering low latency trading, portfolio management and options hedging.
-  - Promoted medior in June 2022, I started working on the most complicated projects related to real time pricing and fitting.
-  - Thanks to previous projects success, I am now the pricing lead developer dedicated to archive the company goals of expanding to the US market.
-  - I manage a team of four **C++** developers. 
+  - All Options is a derivatives trading company specialised in trading options. I am part of the technology department dedicated to develop new technologies and ensure the continuity of the trading platform.
+  - My first large project was to rewrite a C++ trading strategy that place options orders in pre-open phase on Euronex and was not able to handle the amount of order-books updates. The application is required to manage order-book, send orders and cancel orders with a single thread asynchronously.
+  - Wrote a portfolio management application that automatically move delta-neutral and vega-neutral positions when we trade. Used to create the company's spread or dispersion strategies.
+  - Worked on processing market data for fitting the volatility to the market using the **Vola Dynamics** library. Used on EURO STOXX 50 and other liquid European indices.
+  - Created a new real-time pricing application entirely based on **Vola Dynamics**, used on all traded products in the US. Since June 2023, I am leading a team of four developers aiming to expand to all products in Europe and US with a real-time and historical pricing and replace all the previous pricing applications.
   left:
   - Now
   - Mar 2021
@@ -41,10 +39,9 @@ education:
 skills:
 - tag: Low latency
   text:
-  - Experienced in designing applications with low latency and high reliability requirements. I have a methodic approach and always abstract problems into a model.
-  - Proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem and now moving to **C++ 23**. Using **Linux** as my working environment and taking advantage of other languages such as **Python** or **Go**.
-  - Closely working with **NoSQL** databases such as **Redis**, **ScyllaDB** and **InfluxDB**.
-  - I had training with **VHDL** and learned **OpenGL** on my free time. Would be interested in working with GPU-accelerated computing or **FPGA**.
+  - Experienced in developing applications with low latency and high reliability requirements. I have a methodic approach and always provide an abstracted design, enforce concepts separation and code profiling.
+  - Using **Linux** as my working environment and proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem, **Python** and **Go**. Closely working with **NoSQL** databases such as **Redis**, **ScyllaDB** and **InfluxDB**.
+  - I had training with **VHDL** and learned **OpenGL**. Would be interested in GPU-accelerated computing or **FPGA**.
 - tag: Project Management
   text:
   - I manage projects through all different stages, from requirement to release, support and handover. I supervise the work of my team, guide the design, review and give constructive feedbacks.
@@ -58,7 +55,7 @@ skills:
   - "Mail: alexandredlsb@gmail.com"
   - "Phone: +33 7 83 89 52 43"
 ---
-Dear Hiring Manager,
+<!-- Dear Hiring Manager,
 
 I am writing to express my strong interest in the C++ job opportunity in your market-making company in New York. As a C++ developer with expertise in designing low latency systems, I am excited about the possibility of joining a team that values innovation, creativity, and technical excellence.
 
@@ -70,4 +67,4 @@ Thank you for considering my application.
 
 Sincerely,
 
-Alexandre de Saint Blanquat
+Alexandre de Saint Blanquat -->
