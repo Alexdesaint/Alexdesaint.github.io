@@ -14,10 +14,10 @@ experience:
   text:
   - All Options is a derivatives trading company specialised in trading options. I am part of the technology department dedicated to develop new technologies and ensure the continuity of the trading platform.
   - "Main projects:"
-  - "- Rewrite a C++ trading strategy that place options orders in pre-open phase on Euronex. The application is required to manage order-book, send orders and cancel orders with a single thread asynchronously."
-  - "- Wrote a portfolio management application that automatically move delta-neutral and vega-neutral positions. Used to create the company's spread or dispersion strategies."
-  - "- Worked on processing market data for fitting the volatility to the market using the **Vola Dynamics** library. Used on EURO STOXX 50 and other liquid European indices."
   - "- Created a new real-time pricing application entirely based on **Vola Dynamics**, used on all traded products in the US. Since June 2023, I am leading a team of four developers aiming to expand to all products in Europe and US with a real-time and historical pricing and replace all the previous pricing applications."
+  - "- Worked on processing market data for fitting the volatility to the market using the **Vola Dynamics** library. Used on EURO STOXX 50 and other liquid European indices."
+  - "- Wrote a portfolio management application that automatically move delta-neutral and vega-neutral positions. Used to create the company's spread or dispersion strategies."
+  - "- Rewrite a C++ trading strategy that place options orders in pre-open phase on Euronex. The application is required to manage order-book, send orders and cancel orders with a single thread asynchronously."
   left:
   - Now
   - Mar 2021
