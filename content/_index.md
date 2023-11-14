@@ -4,10 +4,9 @@ type: "resume"
 name: Alexandre de Saint Blanquat
 accroche: Pricing Team Lead for a High Frequency Market Maker in Amsterdam.
 intro: >-
-  Lead Developer in a trading company with 3 years of experience, in charge of guiding the real-time pricing projects development.
-  Expertise in designing and implementing **C++** applications used for low latency trading.
+  Lead Developer in a trading company with 3 years of experience, I have expertise in designing and implementing **C++** applications used for low latency trading.
   Proficient with **C++ 17**, **Linux**, **Python**, **Vola Dynamics**, **CMAKE**, **Boost**, **Redis**, **ScyllaDB** and **Tbricks**.
-  I manage a team of 4 developers with excellent communication stakeholders outside my department.
+  In charge of guiding the real-time pricing projects development, managing a team of 4 developers with excellent communication with stakeholders outside my department. 
 experience:
 - name: Pricing Team Lead
   place:
