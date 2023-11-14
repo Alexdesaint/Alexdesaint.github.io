@@ -50,7 +50,8 @@ skills:
   - I see myself as a team player and a problem solver who can offer tailor-made project management that suit the team and the company needs.
 - tag: About me
   text:
-  - I have a truly international profile, who grew in south-east Asia, studied in France and now living in The Netherlands. I like photography, skiing and socializing after work. 
+  - I have a truly international profile, who grew in south-east Asia, studied in France and now living in The Netherlands.
+  - I like photography, skiing and socializing after work. 
   - Native French, fluent in English.
   - "Mail: alexandredlsb@gmail.com"
   - "Phone: +33 7 83 89 52 43"
