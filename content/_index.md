@@ -2,7 +2,7 @@
 title: "Curriculum Vitae"
 type: "resume"
 name: Alexandre de Saint Blanquat
-accroche: Pricing Team Lead for a High Frequency Market Maker in Amsterdam.
+accroche: Pricing Team Lead for a high-frequency Market Maker in Amsterdam.
 intro: >-
   Lead Developer in a trading company with 4 years of experience, I have expertise in designing and implementing **C++** applications used for low latency trading.
   Proficient with **C++ 17**, **Linux**, **Python**, **Vola Dynamics**, **CMAKE**, **Boost**, **Redis**, **ScyllaDB** and **Tbricks**.
