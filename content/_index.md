@@ -43,7 +43,7 @@ skills:
 - tag: Low latency
   text:
   - Experienced in developing applications with low latency and high reliability requirements. I have a methodic approach and always provide an abstracted design, enforce concepts separation and code profiling.
-  - Using **Linux** as my working environment and proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem, **Python** and **Go**. Closely working with **NoSQL** databases such as **Redis**, **ScyllaDB** and **InfluxDB**.
+  - Using **Linux** as my working environment and proficient with **C++ 17**, **CMAKE**, **Boost**, the **LLVM** ecosystem, **Python** and **Rust**. Closely working with **NoSQL** databases such as **Redis**, **ScyllaDB** and **InfluxDB**.
   - I had training with **VHDL** and learned **OpenGL**. Would be interested in GPU-accelerated computing or **FPGA**.
 - tag: Project Management
   text:
