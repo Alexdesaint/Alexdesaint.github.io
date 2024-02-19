@@ -6,7 +6,7 @@ accroche: Pricing Team Lead for a high-frequency Market Maker in Amsterdam.
 intro: >-
   Lead Developer in a trading company with 4 years of experience, I have expertise in designing and implementing **C++** applications used for low latency trading.
   Proficient with **C++ 17**, **Rust**, **Python**, **Linux**, **Vola Dynamics**, **CMAKE**, **Boost**, **Redis**, **ScyllaDB** and **Tbricks**.
-  In charge of guiding the real-time pricing project developments, managing a team of 4 developers with excellent communication with stakeholders.
+  In charge of guiding the pricing project developments and managing a team of 4 developers with excellent communication with stakeholders.
 experience:
 - name: Pricing Team Lead
   place:
